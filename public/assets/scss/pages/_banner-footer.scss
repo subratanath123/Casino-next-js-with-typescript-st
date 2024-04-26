@@ -1,0 +1,339 @@
+// Home Page Start
+.header-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    &.header-fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+        border-color: transparent;
+        background-color: #1b1d4d;
+    }
+    .navbar-toggler {
+        padding-right: 0;
+        display: none;
+        border: none;
+        &:focus {
+            box-shadow: none;
+        }
+        i {
+            color: var(--bs-white);
+        }
+    }
+    .navbar {
+        padding: 23px 15px;
+        .navbar-brand{
+            margin-right: 70px;
+        }
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link,
+                    .dropdown-item {
+                        font-weight: 500;
+                        padding: 0 10px;
+                        text-transform: capitalize;
+                        font-weight: 600;
+                        background-color: transparent;
+                        color: var(--bs-white);
+                        transition: 0.3s;
+                        &:hover {
+                            color: var(--primary-color);
+                            transition: 0.3s;
+                        }
+                        &.active {
+                            color: var(--primary-color);
+                        }
+                    }
+                    .nav-link.dropdown-toggle {
+                        margin-right: 15px;
+                        &::after {
+                            position: absolute;
+                            content: "\0043";
+                            border: none;
+                            font-family: "ara font";
+                            font-weight: 400;
+                            font-size: 14px;
+                        }
+                    }
+                    .dropdown-menu {
+                        background-color: var(--body-color);
+                        li {
+                            a {
+                                display: block;
+                                padding: 5px 15px;
+                                transition: 0.3s;
+                            }
+                        }
+                        .dropend {
+                            .dropdown-menu {
+                                margin-left: 10%;
+                            }
+                        }
+                    }
+                }
+            }
+            .right-area {
+                margin-left: 48px;
+                .login{
+                    color: var(--bs-white);
+                }
+                button{
+                    background-color: transparent;
+                    text-transform: uppercase;
+                }
+                .cmn-btn {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+    .nav-item {
+        &.main-navbar {
+            .main-menu {
+                position: absolute;
+                top: 110%;
+                left: 50%;
+                transform: translateX(-50%);
+                min-width: 220px;
+                box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.25);
+                opacity: 0;
+                visibility: hidden;
+                transition: 0.3s;
+                z-index: 999;
+                pointer-events: none;
+                .sub-navbar {
+                    position: relative;
+                    .sub-menu {
+                        visibility: hidden;
+                        position: absolute;
+                        pointer-events: none;
+                        opacity: 0;
+                        left: 165px;
+                        top: 0;
+                        min-width: 12rem;
+                    }
+                    &:hover {
+                        .sub-menu {
+                            pointer-events: auto;
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                .main-menu {
+                    opacity: 1;
+                    visibility: visible;
+                    top: 30px;
+                    pointer-events: auto;
+                }
+            }
+        }
+    }
+}
+
+// Banner Start
+.banner-section {
+    .overlay {
+        background-image: url(../images/index-banner-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        background-size: cover;
+        .banner-content {
+            padding: 195px 0 160px;
+            .main-content {
+                .top-area {
+                    h1{
+                        span{
+                            color: var(--primary-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.index{
+        overflow-x: initial;
+    }
+    &.inner-banner{
+        .main-content {
+            .breadcrumb-area {
+                margin-top: 10px;
+                .breadcrumb {
+                    li {
+                        display: flex;
+                        align-items: center;
+                        color: var(--bs-white);
+                        a {
+                            color: var(--bs-white);
+                        }
+                    }
+                    .breadcrumb-item + .breadcrumb-item::before {
+                        background-image: url(../images/icon/right-arrow.png);
+                        background-repeat: no-repeat;
+                        width: 22px;
+                        height: 22px;
+                        padding: 0 15px;
+                        content: "";
+                    }
+                }
+            }
+        }
+    }
+    &.games{
+        .overlay{
+            background-image: url(../images/games-banner-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .banner-content {
+                padding: 158px 0 60px;
+            }
+        }
+    }
+    &.lottery{
+        .overlay{
+            background-image: url(../images/lottery-banner-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .banner-content {
+                padding: 160px 0 280px;
+            }
+        }
+    }
+    &.promotions{
+        .overlay{
+            background-image: url(../images/promotions-banner-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .banner-content {
+                padding: 183px 0 80px;
+            }
+        }
+        &.details{
+            .overlay{
+                .banner-content {
+                    padding: 154px 0 115px;
+                }
+            }
+        }
+    }
+    &.tournaments{
+        .overlay{
+            background-image: url(../images/tournament-banner-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .banner-content {
+                padding: 183px 0 80px;
+            }
+        }
+        &.details{
+            .overlay{
+                .banner-content {
+                    padding: 148px 0 125px;
+                }
+            }
+        }
+    }
+    &.about-us{
+        .overlay{
+            background-image: url(../images/about-us-banner-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .banner-content {
+                padding: 183px 0 85px;
+            }
+        }
+    }
+    &.contact{
+        .overlay{
+            background-image: url(../images/contact-banner-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .banner-content {
+                padding: 183px 0 85px;
+            }
+        }
+    }
+    &.blog{
+        .overlay{
+            background-image: url(../images/blog-banner-bg.png);
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: cover;
+            .banner-content {
+                padding: 183px 0 85px;
+            }
+        }
+        &.details{
+            .overlay{
+                background-image: url(../images/blog-details-banner-bg.png);
+                .banner-content {
+                    padding: 180px 0 235px;
+                }
+            }
+        }
+    }
+}
+
+// Footer Area Start
+.footer-section {
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    .footer-form {
+        background-image: url(../images/footer-form-bg.png);
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        background-size: cover;
+        padding: 60px 200px;
+        form {
+            margin: 0 auto;
+            .form-group {
+                border-radius: 10px;
+                background-color: rgba(76, 41, 126, 0.8);
+                box-shadow: 8.5px 14.722px 32px 0px rgba(44, 44, 77, 0.65);
+                border: 1px solid rgb(190, 144, 254);
+                border-radius: 20px;
+                padding: 10px;
+            }
+            button{
+                border-radius: 50%;
+                background-color: rgb(7, 141, 7);
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+    .footer-bottom {
+        border-top: 1px solid rgb(76, 86, 133);
+        padding: 40px 0;
+        margin-top: 30px;
+        .social{
+            a{
+                background-color: rgba(30, 9, 71, 0.5);
+                border: 1px solid var(--bs-white);
+                width: 34px;
+                height: 34px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

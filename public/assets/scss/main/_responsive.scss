@@ -1,0 +1,741 @@
+// Responsive Area
+@media (max-width: 1499px) {
+	.refer-section .shape-area {
+		display: none;
+	}
+}
+
+@media (max-width: 1399px) {
+	.banner-section .overlay {
+		background-size: 125% 100%;
+	}
+	.how-works .single-box.mid::before{
+		left: calc(-26%);
+	}
+	.how-works .single-box.mid::after{
+		right: calc(-26%);
+	}
+	.counter-section {
+		.single-box{
+			background-image: none;
+			&.second{
+				background-image: none;
+			}
+		}
+	}
+	.total-jackpot .section-area .icon-img {
+		top: -30%;
+		left: -25%;
+	}
+	.total-jackpot .section-area {
+		background-size: contain;
+		padding: 60px 0 175px;
+	}
+	.about-us .shape-item{
+		display: none;
+	}
+	.tournaments .single-box img{
+		height: 100%;
+	}
+	.tournaments-heading .tournament-games .single-box {
+		padding: 12px;
+	}
+	.tournaments-heading .heading-content {
+		padding: 25px 60px 30px;
+	}
+	.banner-section.tournaments .overlay {
+		background-position: left;
+	}
+}
+
+
+@media (max-width: 1199px) {
+	h1, h1>a {
+		font-size: 57px;
+		line-height: 74.1px;
+		margin-top: -16px;
+	}
+	h2, h2>a {
+		font-size: 43px;
+		line-height: 55.9px;
+		margin-top: -10px;
+	}
+	.preloader {
+		background-size: 30%;
+	}
+	.header-section .navbar .navbar-brand {
+		margin-right: 30px;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link, 
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item {
+		font-size: 16px;
+	}
+	.banner-section.inner-banner .overlay .banner-content {
+		padding: 190px 0 80px;
+	}
+	.banner-section.lottery .overlay .banner-content {
+		padding: 160px 0 280px;
+	}
+	.counter-section .single-box .img-area {
+		margin-right: 20px;
+	}
+	.counter-section .single-box {
+		padding: 20px 15px;
+	}
+	.how-works .single-box.mid::before, .how-works .single-box.mid::after{
+		display: none;
+	}
+	.how-works .single-box h5 {
+		margin: 23px 0 15px;
+	}
+
+	.how-works .single-box img{
+		width: 30%;
+	}
+	.latest-bets table {
+		width: 115%;
+	}
+	.total-jackpot .section-area {
+		padding: 60px 0 110px;
+	}
+	.footer-section .footer-form {
+		padding: 60px 80px 40px;
+	}
+	.banner-section.contact .overlay {
+		background-position: left;
+		background-size: 140% 110%;
+	}
+	.games-section .all-items {
+		justify-content: start;
+		gap: 18px;
+	}
+	.games-section {
+		.all-items {
+			.single-item {
+				flex: 0 0 calc(100% / 5 - 15px);
+				max-width: calc(100% / 5 - 15px);
+				margin-bottom: 10px;
+			}
+		}
+		.btn-area.mt-3{
+			margin-top: 30px !important;
+		}
+	}
+	.buy-lottery-tickets .output-box ul {
+		justify-content: start;
+	}
+	.tournaments .single-content .abs-area{
+		display: none;
+	}
+	.tournaments .single-content .prize-pool {
+		padding: 10px;
+	}
+	.tournaments-heading .heading-content {
+		padding: 25px 20px 30px;
+	}
+	.tournaments-heading .games-area {	
+		.btn-area{
+			margin-top: 60px;
+		}
+		.prize-items {
+			justify-content: start;
+			gap: 20px;
+			.single-box{
+				margin-bottom: 5px;
+			}
+		}
+	}
+	.tournaments-heading .games-area .prize-items .single-box {
+		flex: 0 0 calc(100% / 4 - 15px);
+		max-width: calc(100% / 4 - 15px);
+	}
+	.tournaments-heading .latest-winners .table-responsive table {
+		width: 100%;
+	}
+}
+
+@media (max-width: 991px) {
+	// Normalize
+	h1, h1>a {
+		font-size: 57px;
+		line-height: 68.4px;
+		margin-top: -16px;
+	}
+	
+	h2, h2>a {
+		font-size: 43px;
+		line-height: 51.6px;
+		margin-top: -10px;
+	}
+	
+	h3, h3>a {
+		font-size: 32px;
+		line-height: 38.4px;
+		margin-top: -8px;
+	}
+	
+	h4, h4>a {
+		font-size: 24px;
+		line-height: 28px;
+		margin-top: -6px;
+	}
+	
+	h5, h5>a {
+		font-size: 18px;
+		line-height: 22px;
+		margin-top: -4px;
+	}
+	
+	h6, h6>a, table thead tr th, button, a, p, span, li {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	
+	.section-header {
+		margin-bottom: 40px;
+	}
+	
+	.title {
+		margin-bottom: 20px;
+	}
+	
+	.xxxlr {
+		font-size: 24px;
+		line-height: 28px;
+		margin-top: -6px;
+	}
+	
+	.xxlr{
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.xlr{
+		font-size: 18px;
+		line-height: 25.5px;
+	}
+	.cmn-btn{
+		[class*='icon-']:before{
+			line-height: 1;
+		}
+	}
+
+	// Header Responsive
+	.header-section {
+		background-color: #1b1d4d;
+	}
+	.header-section .navbar-toggler {
+		display: inline-block;
+	}
+    .header-section .navbar .navbar-brand {
+		margin-top: -5px;
+		width: 35%;
+	}
+	.header-section .navbar .navbar-brand img {
+		max-width: initial;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav {
+		height: 200px;
+		margin: 20px 0;
+    	overflow-y: auto;
+		margin-bottom: 10px;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropend .dropdown-menu {
+		left: 60px;
+	}
+	.header-section .nav-item.main-navbar .main-menu .sub-navbar .sub-menu{
+		right: 0;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+		display: inline-block;
+		margin-left: 130px;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+		display: none;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item{
+		padding: 8px 0;
+	}
+	.header-section .nav-item.dropdown .dropdown-menu {
+		position: initial;
+	}
+	.header-section .navbar .navbar-collapse .right-area .lang{
+		display: none !important;
+	}
+	.header-section .navbar .navbar-collapse .right-area{
+		margin-left: 0;
+	}
+	// End Header
+
+	.banner-section.index .overlay {
+		background-size: 210%;
+		background-position: left -280px bottom;
+	}
+	.total-jackpot .section-area {
+		background-size: 100% 260%;
+		padding: 60px 0;
+	}
+	.total-jackpot .section-area .icon-img{
+		display: none;
+	}
+	.total-jackpot .section-area{
+		margin-bottom: 40px;
+	}
+	.total-jackpot .slick-arrow {
+		top: -45px;
+	}
+	.popular-game .single-box{
+		margin: 0 15px;
+		img{
+			width: 100%;
+		}
+	}
+	.banner-section.promotions.details .overlay .banner-content {
+		padding: 160px 0 115px;
+	}
+	.drops-wins .right-box {
+		padding: 40px 5px 30px;
+	}
+	.latest-bets {
+		background-position: left -250px top;
+	}
+	.latest-bets table {
+		width: 135%;
+	}
+	.refer-section .bg-img{
+		margin-top: 40px;
+		img{
+			max-width: 100%;
+		}
+	}
+	.footer-section .footer-bottom .social a {
+		margin-bottom: 30px;
+	}
+	.footer-section .footer-form form button {
+		width: 40px;
+		height: 40px;
+	}
+	.about-us .sec-img{
+		text-align: center;
+		margin-top: 30px;
+		.bg-img{
+			max-width: 65%;
+		}
+
+	}
+	.about-us .shape-area{
+		display: none;
+	}
+	.blog-post .sidebar-area{
+		margin-top: 40px;
+	}
+	.blog-details .sidebar-area{
+		margin-bottom: 40px;
+	}
+	.get-in-touch form{
+		margin-top: 40px;
+	}
+	.games-section .top-nav .nav-link {
+		margin-right: 40px;
+	}
+	.games-section .top-nav .nav-link {
+		padding: 20px 0 10px;
+	}
+	.games-section .all-items .single-item {
+		flex: 0 0 calc(100% / 4 - 15px);
+		max-width: calc(100% / 4 - 15px);
+		margin-bottom: 5px;
+	}
+	.how-works-second .single-box {
+		border-radius: 20px;
+		padding: 30px 25px 25px;
+	}
+	.banner-section.lottery .overlay {
+		background-position: left;
+	}
+	.buy-lottery-tickets .output-box button {
+		padding: 15px 0;
+		margin-top: 25px;
+	}
+	.promotions-single .top-box {
+		padding: 30px 40px;
+	}
+	.tournaments .nav-head{
+		flex-wrap: wrap;
+	}
+	.tournaments .single-content {
+		margin-top: 20px;
+	}
+	.tournaments-heading .heading-content {
+		margin-top: -120px;
+	}
+	.log-reg{
+		.checkbox-single .checkbox-area .checkmark {
+			top: -2px;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.banner-section.index .overlay {
+		background-size: 300%;
+		background-position: left -280px bottom;
+	}
+	.features .single-box {
+		padding: 40px 0 30px;
+	}
+	.drops-wins .right-box {
+		margin-top: 40px;
+	}
+	.drops-wins {
+		background-position: left -200px top;
+	}
+	.latest-bets table {
+		width: 195%;
+	}
+	.footer-section .footer-top{
+		display: grid !important;
+		text-align: center;
+		justify-content: center !important;
+		.logo{
+			margin-bottom: 30px;
+		}
+		.footer-link{
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+	.about-us .magnific-area .mfp-iframe::after {
+		width: 80px;
+		height: 80px;
+	}
+	.about-us .magnific-area .mfp-iframe::before {
+		width: 110px;
+		height: 110px;
+	}
+	.why-choose .section-header p {
+		width: 100%;
+	}
+	.blog-post .single-box .text-area {
+		padding: 30px 20px 25px;
+	}
+	.blog-details .single-item ul li{
+		align-items: flex-start;
+		&::before{
+			top: 6px;
+		}
+	}
+	.games-section .all-items .single-item {
+		flex: 0 0 calc(100% / 3 - 15px);
+		max-width: calc(100% / 3 - 15px);
+		margin-bottom: 5px;
+	}
+	.games-section .form-group {
+		margin-top: 30px;
+	}
+	.games-section .top-nav .nav-link img {
+		width: 30px;
+	}
+	.weekly-lottery .prize-pool {
+		display: grid !important;
+		justify-content: center !important;
+	}
+	.weekly-lottery .lottery-content {
+		text-align: center;
+	}
+	.how-works-second .single-box .thumb img{
+		width: 45%;
+	}
+	.buy-lottery-tickets .single-item .radio-box {
+		display: grid !important;
+		.single-radio {
+			padding: 10px 40px;
+		}
+	}
+	.finished-tournaments {
+		background-size: 200%;
+	}
+	.tournaments-heading .tournament-games {
+		display: grid !important;
+		gap: 0 !important;
+	}
+	.tournaments-heading .games-area .prize-items .single-box {
+		flex: 0 0 calc(100% / 3 - 15px);
+		max-width: calc(100% / 3 - 15px);
+	}
+	.tournaments-heading .latest-winners .table-responsive table {
+		width: 110%;
+	}
+}
+
+@media (max-width: 575px) {
+    h1, h1>a {
+        font-size: 40px;
+        line-height: 46px;
+		margin-top: -9px;
+    }
+    h2, h2>a {
+        font-size: 30px;
+        line-height: 36px;
+		margin-top: -7px;
+    }
+    h3, h3>a {
+        font-size: 24px;
+        line-height: 28px;
+		margin-top: -6px;
+    }
+    h4, h4>a {
+        font-size: 18px;
+        line-height: 22px;
+		margin-top: -4px;
+    }
+	a, p, span, li, .cmn-btn, thead tr th, tbody tr th, tbody tr td, input, label, textarea, h6, h6>a{
+		font-size: 15px;
+        line-height: 19px;
+    }
+	.section-header {
+		margin-bottom: 35px;
+	}
+	.title {
+		margin-bottom: 15px;
+	}
+	.xxxlr {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.xxlr {
+		font-size: 18px;
+		line-height: 25.5px;
+	}
+	.xlr {
+		font-size: 16px;
+		line-height: 22.4px;
+	}
+	.header-section .navbar {
+		padding: 20px 15px;
+	}
+	.banner-section.index .overlay .banner-content {
+		padding: 170px 0 130px;
+	}
+	.banner-section.inner-banner .overlay .banner-content{
+		padding: 170px 0 55px;
+	}
+	.banner-section.blog.details .overlay .banner-content {
+		padding: 175px 0 210px;
+	}
+	.banner-section.lottery .overlay .banner-content {
+		padding: 150px 0 260px;
+	}
+	.footer-section .footer-area .menu-item {
+		margin-bottom: 20px;
+		li{
+			margin: 0 10px !important;
+		}
+	}
+	.footer-section .newsletter {
+		padding: 40px 30px;
+		form {
+			width: 100%;
+		}
+	}
+	.how-works .single-box img{
+		width: 15%;
+	}
+	.drops-wins {
+		background-position: left -260px top;
+	}
+	.total-jackpot .img-box{
+		text-align: center;
+		img{
+			width: 100%;
+		}
+	}
+	.why-choose{
+		overflow-x: initial;
+	}
+	.blog-details .quotation {
+		padding: 35px 30px;
+	}
+	.how-works-second .single-box .thumb img{
+		width: 25%;
+	}
+	.weekly-lottery .lottery-content {
+		padding: 30px;
+	}
+	.buy-lottery-tickets .main-content .body-area {
+		padding: 25px 10px;
+	}
+	.buy-lottery-tickets .single-item {
+		padding: 20px 15px;
+	}
+	.buy-lottery-tickets .ticket-box {
+		padding: 20px 15px;
+	}
+	.buy-lottery-tickets .ticket-box ul li span {
+		width: 25px;
+		height: 25px;
+	}
+	.buy-lottery-tickets .ticket-box ul li {
+		width: 35px;
+		height: 35px;
+	}
+	.promotions-single .top-box img {
+		width: 120px;
+	}
+	.tournaments-heading .latest-winners .table-responsive table {
+		width: 130%;
+	}
+}
+
+@media (max-width: 480px) {
+	.banner-section.index .overlay {
+		background-size: cover;
+		background-position: left -160px bottom;
+	}
+	.how-works .single-box img{
+		width: 25%;
+	}
+	.latest-bets table {
+		width: 265%;
+	}
+	.about-us .col-6{
+		width: 100% !important;
+	}
+	.get-start .btn-area a {
+		width: 100%;
+	}
+	.get-start .star-form {
+		padding: 35px 15px 35px;
+	}
+
+
+	.footer-section .menu-item {
+		display: grid;
+		justify-content: center;
+		text-align: center;
+	}
+	.faqs-section .accordion .accordion-item .accordion-button {
+		padding: 15px 15px;
+	}
+	.faqs-section .accordion-body {
+		padding: 20px 15px 10px;
+	}
+	.faqs-section .accordion .accordion-item .accordion-button::before {
+		right: 20px;
+		width: 30px;
+		height: 30px;
+	}
+	.faqs-section .accordion .accordion-item .accordion-button::after{
+		right: 25px;
+	}
+	.total-jackpot .slick-arrow {
+		top: -40px;
+	}
+	.footer-section .footer-form {
+		padding: 40px 20px 20px;
+	}
+	.blog-post .single-box .text-area {
+		padding: 30px 15px 25px;
+	}
+	.get-in-touch .cus-mar{
+		display: grid !important;
+	}
+	.social-media .icon-area img{
+		width: 30%;
+	}
+	.games-section .all-items .single-item {
+		flex: 0 0 calc(100% / 2 - 15px);
+		max-width: calc(100% / 2 - 15px);
+		margin-bottom: 5px;
+	}
+	.weekly-lottery .lottery-content {
+		padding: 30px 10px;
+	}
+	.weekly-lottery .right-area {
+		padding: 20px 30px;
+	}
+	.weekly-lottery .prize-pool {
+		padding: 20px 10px;
+	}
+	.single-radio .checkmark {
+		width: 20px;
+		height: 20px;
+		&::after {
+			width: 10px;
+			height: 10px;
+		}
+	}
+	.promotions .single-box {
+		display: grid;
+		.icon-box{
+			img{
+				width: 110px;
+			}
+		}
+	}
+	.tournaments-heading .heading-content {
+		margin-top: -40px;
+	}
+	.tournaments-heading .games-area .prize-items .single-box {
+		flex: 0 0 calc(100% / 2 - 15px);
+		max-width: calc(100% / 2 - 15px);
+	}
+	.tournaments-heading .tournament-prize .single-box .img-bg {
+		width: 160px;
+	}
+	.players-of-week.second .img-area .img-3 {
+		bottom: 5px;
+	}
+	.tournaments-heading .tournament-prize .prize-items {
+		padding: 20px;
+	}
+	.tournaments-heading .latest-winners .table-responsive table {
+		width: 140%;
+	}
+
+}
+
+@media (max-width: 375px) {
+	.blog-post .col-10,
+	.buy-lottery-tickets .col-6,
+	.about .col-6{
+		width: 100% !important;
+	}
+	.latest-bets table {
+		width: 310%;
+	}
+	.total-jackpot .title{
+		display: grid !important;
+		h4{
+			margin-bottom: 30px;
+		}
+	}
+	.pagination-area li a {
+		padding: 14px 10px;
+	}
+	.pagination-area .page-btn {
+		padding: 0 15px;
+	}
+	.get-in-touch form {
+		padding: 20px;
+	}
+	.breadcrumb-item+.breadcrumb-item {
+		padding-left: 0;
+	}
+	.banner-section.inner-banner .main-content .breadcrumb-area .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+		padding: 0 12px;
+	}
+	.tournaments-heading .latest-winners .table-responsive table {
+		width: 180%;
+	}
+	.log-reg{
+		.checkbox-item{
+			display: grid !important;
+		}
+	}
+	.log-reg .modal-content {
+		padding: 30px 21px;
+	}
+	.log-reg .modal-content .btn-area .cmn-btn{
+		width: 100%;
+	}
+}

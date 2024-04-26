@@ -1,0 +1,495 @@
+// Responsive Area
+@media screen and (min-device-width: 700px) {
+	.sidebar-wrapper.active{
+		.profile-info-content{
+			h5, p{
+				display: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 1599px) {
+	.dashboard-section.account .nav-tabs {
+		justify-content: start;
+		.nav-link{
+			margin-right: 20px;
+		}
+	}
+	.dashboard-section .table tr th:first-child {
+		width: 30%;
+	}
+	.dashboard-section .transaction-box.bonuses .table tr th:first-child {
+		width: 45%;
+	}
+}
+
+@media (max-width: 1399px) {
+	.dashboard-section.transactions.recipients .filters-item .search-area {
+		width: 80%;
+	}
+	.dashboard-section{
+		margin-left: 110px;
+		width: calc(100% - 100px);
+	}
+	.header-section.body-collapse{
+		margin-left: 140px;
+		width: calc(100% - 140px);
+	}
+	.dashboard-section.body-collapse {
+		margin-left: 110px;
+		width: calc(100% - 100px);
+		padding-left: 45px;
+	}
+	.header-section .navbar-area {
+		padding-left: 20px;
+	}
+	.header-section .top-bar-area .top-info-bar {
+		padding: 12px 30px;
+		margin: 0 5px;
+		margin-right: 20px;
+	}
+	.header-section.body-collapse .sidebar-wrapper {
+		width: 270px;
+		left: -290px;
+	}
+	.header-section .sidebar-wrapper {
+		width: 130px;
+	}
+	.dashboard-section .single-box {
+		padding: 20px 15px;
+	}
+}
+
+@media (max-width: 699px) {
+	.header-section.body-collapse,
+	.header-section,
+	.dashboard-section.body-collapse,
+	.dashboard-section {
+		width: calc(100%);
+		margin-left: 0;
+		.sidebar-wrapper{
+			left: -420px;
+		}
+	}
+	aside .close-btn{
+		display: block !important;
+	}
+	.dashboard-section.body-collapse {
+		padding-left: 30px;
+	}
+	.header-section .navbar-area {
+		padding: 0 20px;
+		padding-left: 30px;
+		padding-top: 15px;
+	}
+	.header-section .top-bar-area .top-info-bar {
+		padding: 12px 30px;
+		margin: 0 5px;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	.dashboard-section.chat {
+		padding-left: 15px;
+		padding-right: 25px;
+	}
+	.header-section {
+		.sidebar-wrapper {
+			width: 270px;
+			ul {
+				li {
+					a {
+						justify-content: start;
+					}
+					img {
+						margin-right: 10px;
+						width: auto;
+					}
+					span {
+						display: block;
+					}
+				}
+			}
+			&.active {
+				left: 0;
+				
+			}
+			.invite-now{
+				display: block;
+			}
+		}
+	}
+	.header-section {
+		.container-fruid{
+			overflow-x: clip;
+		}
+		.close-btn{
+			display: block !important;
+		}
+		.sidebar-wrapper{
+			opacity: 1;
+			visibility: visible;
+			left: -150px !important;
+			&.active{
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+	}
+}
+
+@media (max-width: 1199px) {
+	h1, h1>a {
+		font-size: 57px;
+		line-height: 74.1px;
+		margin-top: -16px;
+	}
+	h2, h2>a {
+		font-size: 43px;
+		line-height: 55.9px;
+		margin-top: -10px;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link, 
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item {
+		font-size: 16px;
+	}
+	.banner-section .overlay .banner-content {
+		padding: 220px 0 230px;
+	}
+	.banner-section.inner-banner .overlay .banner-content {
+		padding: 215px 0 100px;
+	}
+	.dashboard-section .deposit-box .deposit-amount{
+		margin-top: 40px;
+	}
+	.dashboard-section .table{
+		width: 115%;
+	}
+}
+
+@media (max-width: 991px) {
+	// Normalize
+	h1, h1>a {
+		font-size: 57px;
+		line-height: 68.4px;
+		margin-top: -16px;
+	}
+	
+	h2, h2>a {
+		font-size: 43px;
+		line-height: 51.6px;
+		margin-top: -10px;
+	}
+	
+	h3, h3>a {
+		font-size: 32px;
+		line-height: 38.4px;
+		margin-top: -8px;
+	}
+	
+	h4, h4>a {
+		font-size: 24px;
+		line-height: 28px;
+		margin-top: -6px;
+	}
+	
+	h5, h5>a {
+		font-size: 18px;
+		line-height: 22px;
+		margin-top: -4px;
+	}
+	
+	h6, h6>a, table thead tr th, a, p, span, li {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	
+	.section-header {
+		margin-bottom: 40px;
+	}
+	
+	.title {
+		margin-bottom: 20px;
+	}
+	
+	.xxlr{
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.xlr{
+		font-size: 18px;
+		line-height: 25.5px;
+	}
+	input, textarea {
+		padding: 8px 20px;
+	}
+
+	// Header Responsive
+	.header-section .navbar-toggler {
+		display: inline-block;
+	}
+    .header-section .navbar .navbar-brand {
+		margin-top: -5px;
+		width: 35%;
+	}
+	.header-section .navbar .navbar-brand img {
+		max-width: initial;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav {
+		height: 200px;
+		margin: 20px 0;
+    	overflow-y: auto;
+		margin-bottom: 10px;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropend .dropdown-menu {
+		left: 60px;
+	}
+	.header-section .nav-item.main-navbar .main-menu .sub-navbar .sub-menu{
+		right: 0;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+		display: inline-block;
+		margin-left: 130px;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+		display: none;
+	}
+	.header-section .navbar .navbar-collapse .navbar-nav .nav-item{
+		padding: 8px 0;
+	}
+	.header-section .nav-item.dropdown .dropdown-menu {
+		position: initial;
+	}
+	.header-section .navbar .navbar-collapse .right-area .lang{
+		display: none !important;
+	}
+	.header-section .navbar .navbar-collapse .right-area{
+		margin-left: 0;
+	}
+	// End Header
+	.dashboard-section {
+		padding-top: 40px;
+	}
+	.dashboard-section .side-items{
+		margin-top: 30px;
+	}
+
+	.header-section form{
+		width: 35%;
+	}
+	.dashboard-section .footer-area a {
+		padding: 12px 35px;
+	}
+	.dashboard-section .table {
+		width: 140%;
+	}
+	.chat-area aside {
+		width: 220px;
+	}
+}
+
+@media (max-width: 767px) {
+	.header-section .navbar-area .dashboard-nav {
+		margin-left: 30px;
+		gap: 20px;
+	}
+	.header-section .navbar-area .sidebar-icon {
+		margin-right: 40px;
+	}
+	.dashboard-section .table {
+		width: 160%;
+	}
+}
+
+@media (max-width: 575px) {
+    h1, h1>a {
+        font-size: 40px;
+        line-height: 46px;
+		margin-top: -9px;
+    }
+    h2, h2>a {
+        font-size: 30px;
+        line-height: 36px;
+		margin-top: -7px;
+    }
+    h3, h3>a {
+        font-size: 24px;
+        line-height: 28px;
+		margin-top: -6px;
+    }
+    h4, h4>a {
+        font-size: 18px;
+        line-height: 22px;
+		margin-top: -4px;
+    }
+	a, p, span, li, .cmn-btn, thead tr th, tbody tr th, tbody tr td, input, label, textarea, h6, h6>a{
+		font-size: 15px;
+        line-height: 19px;
+    }
+	.section-header {
+		margin-bottom: 30px;
+	}
+	.title {
+		margin-bottom: 15px;
+	}
+	.xxlr {
+		font-size: 18px;
+		line-height: 25.5px;
+	}
+	.xlr {
+		font-size: 16px;
+		line-height: 22.4px;
+	}
+	.header-section .navbar {
+		padding: 20px 15px;
+	}
+	.header-section .navbar-area .dashboard-nav .single-item .main-area {
+		width: 300px;
+		padding: 20px;
+		border-radius: 10px;
+		border-radius: 10px;
+	}
+
+	.preloader {
+		background-size: 50%;
+	}
+	.transfer-popup .modal-dialog,
+	.add-recipients .modal-dialog,
+	.add-card .modal-dialog{
+		margin: auto;
+	}
+	.chat-area{
+		flex-direction: column;
+	}
+	.chat-area aside {
+		width: 100%;
+	}
+	.chat-area #chat li {
+		padding: 10px 15px;
+	}
+	.dashboard-section {
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 20px;
+		overflow: hidden;
+	}
+	.dashboard-section .profile-nav{
+		margin-left: 15px;
+	}
+	.dashboard-section.profile {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 20px;
+	}
+	.dashboard-section .deposit-box .deposit-currency .first-deposit-bonus .deposit-bonus-content{
+		display: grid !important;
+		padding: 15px;
+		gap: 30px;
+	}
+	.dashboard-section .deposit-box .deposit-currency .payment-processor .single-box {
+		width: 90px;
+		height: 45px;
+	}
+	.dashboard-section .transaction-box .top-filter{
+		flex-wrap: wrap;
+	}
+	.dashboard-section .transaction-box {
+		padding: 20px 15px 10px;
+	}
+	.dashboard-section .table {
+		width: 190%;
+	}
+	.header-section .navbar-area form{
+		display: none;
+	}
+	.dashboard-section .nav button {
+		margin-right: 15px;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	.header-section .navbar-area .dashboard-nav {
+		margin-left: 10px;
+		gap: 15px;
+	}
+	.header-section .navbar-area .sidebar-icon {
+		margin-right: 20px;
+	}
+	.header-section .navbar-area .dashboard-nav .single-item .main-area {
+		padding: 15px;
+	}
+
+	.dashboard-section .profile-nav{
+		margin-top: 30px;
+	}
+	.dashboard-section .dashboard-nav{
+		margin-top: 30px;
+	}
+	.payment-processor{
+		margin-bottom: 0;
+	}
+	.dashboard-section .main-content .footer-area a {
+		margin: 0 10px;
+		padding: 12px 12px;
+	}
+	
+	.dashboard-section .deposit-box .deposit-amount ul h5 {
+		padding: 10px 25px;
+	}
+
+	.header-section .navbar-area {
+		padding: 10px 20px;
+	}
+	.dashboard-section .deposit-box .deposit-currency .balance-area{
+		display: grid !important;
+	}
+	.dashboard-section .deposit-box .deposit-currency {
+		border-radius: 15px;
+		padding: 15px;
+	}
+	.dashboard-section .table {
+		width: 245%;
+	}
+	.header-section .top-bar-area .top-info-bar {
+		padding: 12px 15px;
+		margin: 0 15px;
+		margin-right: 20px;
+		gap: 20px;
+		display: grid;
+	}
+	.dashboard-section .verification {
+		padding: 25px 15px;
+	}
+}
+
+@media (max-width: 375px) {
+	.about .col-6{
+		width: 100% !important;
+	}
+	.header-section .navbar-area form .form-group img{
+		display: none;
+	}
+	.header-section .navbar-area form .form-group {
+		padding: 0;
+	}
+	.dashboard-section .side-items .single-item {
+		padding: 15px;
+	}
+	.dashboard-section .side-items .single-item .recipients-item .left{
+		margin-right: 15px;
+	}
+	.dashboard-section .single-input-box .row {
+		margin: 0 10px;
+	}
+	.preloader {
+		background-size: 60%;
+	}
+	.dashboard-section.account .nav-tabs .nav-link {
+		padding: 13px 25px;
+	}
+	.dashboard-section .table {
+		width: 295%;
+	}
+}
