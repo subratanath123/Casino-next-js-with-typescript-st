@@ -21,6 +21,7 @@ export const GeneralOffer: React.FC<Offer> = ({
                     key={`image-${id}`}
                     width="100%"
                     height="300"
+                    style={{cursor: "progress"}}
                     src={(photoIdList && photoIdList.length > 0) ? `${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}` : ''}
                     className="card-img-top"
                     alt=""

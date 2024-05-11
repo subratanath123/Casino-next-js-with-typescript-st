@@ -19,6 +19,7 @@ export const OnlineGameOfferItem: React.FC<Offer> = ({
                     key={`image-${id}`}
                     width="196"
                     height="250"
+                    style={{cursor: "progress"}}
                     src={(photoIdList && photoIdList.length > 0) ? `${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}` : ''}
                     className="img-fluid mx-auto rounded"
                     alt=""
