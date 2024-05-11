@@ -8,6 +8,7 @@ export const GeneralOfferItem: React.FC<Offer> = ({
                                                        id,
                                                        link,
                                                        subtitle,
+                                                       title,
                                                        offerType,
                                                        details,
                                                        photoIdList,
@@ -17,8 +18,7 @@ export const GeneralOfferItem: React.FC<Offer> = ({
                                                    }) => {
 
     return (
-        photoIdList && photoIdList.length > 0
-        &&
+
         <div className="col-lg-6">
             <div className="single-box"
                  style={{
@@ -33,14 +33,14 @@ export const GeneralOfferItem: React.FC<Offer> = ({
                         key={`image-${id}`}
                         width="100"
                         height="100"
-                        src={`${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}`}
+                        src={(photoIdList && photoIdList.length > 0) ? `${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}` : ''}
                         className="img-fluid mx-auto rounded"
                         alt=""
                     />
                 </div>
                 <div className="text-box">
-                    <p>Welcome Bonus</p>
-                    <h5>{details || "Claim exclusive discount"}</h5>
+                    <p>{details}</p>
+                    <h5>{title || "Claim exclusive discount"}</h5>
                     <p>{subtitle || "Limited time discount"}</p>
                     <Link href={link} className="cmn-btn">
                         {buttonName || "Claim"}

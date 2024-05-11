@@ -14,8 +14,6 @@ export const GeneralOffer: React.FC<Offer> = ({
                                                }) => {
 
     return (
-        photoIdList && photoIdList.length > 0
-        &&
         <div className="col-md-3 col-xl-2 col-sm-6">
             <button className="card" style={{backgroundColor: "transparent"}}
                  onClick={event => window.location.href = link}>
@@ -23,7 +21,7 @@ export const GeneralOffer: React.FC<Offer> = ({
                     key={`image-${id}`}
                     width="100%"
                     height="300"
-                    src={`${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}`}
+                    src={(photoIdList && photoIdList.length > 0) ? `${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}` : ''}
                     className="card-img-top"
                     alt=""
                 />

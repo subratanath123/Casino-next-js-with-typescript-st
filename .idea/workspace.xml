@@ -6,20 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="71a3457b-cb94-45c5-b0ce-a7652254fba0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/games/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/games/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/offers/[bannerCategory]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/offers/[offerType]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/privacy-policy/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/privacy-policy/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ConsumerLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConsumerLayout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/childPageItems/GeneralOffer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/childPageItems/GeneralOffer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/AboutUsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/AboutUsSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/CustomerReviewSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/CustomerReviewSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/HowToPlayOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/HowToPlayOfferItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/HowToPlayOfferSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/HowToPlayOfferSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/VipOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/VipOfferItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/Constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/Constants.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +105,7 @@
       <workItem from="1714057573413" duration="490000" />
       <workItem from="1714058123264" duration="5099000" />
       <workItem from="1714118786161" duration="26659000" />
-      <workItem from="1715406933304" duration="3644000" />
+      <workItem from="1715406933304" duration="5306000" />
     </task>
     <servers />
   </component>

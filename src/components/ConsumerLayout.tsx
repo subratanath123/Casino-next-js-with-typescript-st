@@ -60,8 +60,8 @@ export default function ConsumerLayout({children}: { children: React.ReactNode }
                                                 Games</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className={`nav-link ${pathName == "/offers/Offer" && "active"}`}
-                                               href="/offers/Offer">Offers</a>
+                                            <a className={`nav-link ${pathName == "/offers/CasinoOffer" && "active"}`}
+                                               href="/offers/CasinoOffer">Offers</a>
                                         </li>
                                         <li className="nav-item">
                                             <a className={`nav-link ${pathName == "/aboutus" && "active"}`}

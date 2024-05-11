@@ -23,19 +23,19 @@ export default function HowToPlayOfferSection() {
 
                 <div className="row cus-mar pt-120">
                     <div className="col-xl-6 col-sm-6">
-                        <div className="offers one">
+                        <div className="offers one" onClick={()=> {window.location.href = "offers/CryptoOffer"}}>
                         </div>
                     </div>
                     <div className="col-xl-6 col-sm-6">
-                        <div className="offers second">
+                        <div className="offers second" onClick={()=> {window.location.href = "offers/CasinoOffer"}}>
                         </div>
                     </div>
                     <div className="col-xl-6 col-sm-6">
-                        <div className="offers third">
+                        <div className="offers third" onClick={()=> {window.location.href = "offers/LotteryOffer"}}>
                         </div>
                     </div>
                     <div className="col-xl-6 col-sm-6">
-                        <div className="offers fourth">
+                        <div className="offers fourth" onClick={()=> {window.location.href = "offers/SportsOffer"}}>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export default function HowToPlayOfferSection() {
                 <div className="row justify-content-center wow fadeInUp">
                     <div className="col-lg-12">
                         <div className="btn-area mt-40 text-center">
-                            <a href="/offers/Offer" className="cmn-btn">
+                            <a href="/offers/CryptoOffer" className="cmn-btn">
                                 View All
                                 <i className="icon-d-right-arrow-2"></i>
                             </a>

@@ -17,8 +17,6 @@ export const HowToPlayOfferItem: React.FC<Offer> = ({
     const numberMap: string[] = ['', 'second', 'third', 'fourth'];
 
     return (
-        photoIdList && photoIdList.length > 0
-        &&
         <div className="col-xl-3 col-sm-6">
             <div className={`single-box ${numberMap[index % 4]}`}>
                 <div className="icon-box">
@@ -26,7 +24,7 @@ export const HowToPlayOfferItem: React.FC<Offer> = ({
                         key={`image-${id}`}
                         width="100"
                         height="100"
-                        src={`${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}`}
+                        src={(photoIdList && photoIdList.length > 0) ? `${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}` : ''}
                         className="img-fluid mx-auto rounded"
                         alt=""
                     />

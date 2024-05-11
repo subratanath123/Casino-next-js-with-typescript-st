@@ -252,20 +252,6 @@ export default function CustomerReviewSection() {
                 </MDBContainer>
                 </div>
             </div>
-
-            <Script src="/assets/js/jquery.min.js"></Script>
-            <Script src="/assets/js/jquery-ui.js"></Script>
-            <Script src="/assets/js/bootstrap.min.js"></Script>
-            <Script src="/assets/js/fontawesome.js"></Script>
-            <Script src="/assets/js/plugin/slick.js"></Script>
-            <Script src="/assets/js/plugin/jquery.nice-select.min.js"></Script>
-            <Script src="/assets/js/plugin/counter.js"></Script>
-            <Script src="/assets/js/plugin/jquery.downCount.js"></Script>
-            <Script src="/assets/js/plugin/waypoint.min.js"></Script>
-            <Script src="/assets/js/plugin/jquery.magnific-popup.min.js"></Script>
-            <Script src="/assets/js/plugin/wow.min.js"></Script>
-            <Script src="/assets/js/plugin/plugin.js"></Script>
-            <Script src="/assets/js/main.js"></Script>
         </section>
     );
 }

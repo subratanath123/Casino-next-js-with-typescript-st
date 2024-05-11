@@ -12,8 +12,6 @@ export const OnlineGameOfferItem: React.FC<Offer> = ({
                                                 order,
                                                 buttonName
                                             }) => (
-    photoIdList && photoIdList.length > 0
-        &&
     <div className="col-xl-4 col-sm-6">
         <div className="single-box mid text-center" onClick={event => window.location.href = link}>
             <div className="thumb">
@@ -21,7 +19,7 @@ export const OnlineGameOfferItem: React.FC<Offer> = ({
                     key={`image-${id}`}
                     width="196"
                     height="250"
-                    src={`${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}`}
+                    src={(photoIdList && photoIdList.length > 0) ? `${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}` : ''}
                     className="img-fluid mx-auto rounded"
                     alt=""
                 />
