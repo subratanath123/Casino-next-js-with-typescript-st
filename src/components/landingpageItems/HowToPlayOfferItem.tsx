@@ -1,14 +1,14 @@
-import {Banner} from "@/constants/Constants";
+import {Offer} from "@/constants/Constants";
 import React from "react";
 import Image from "next/image";
 import Script from "next/script";
 
-export const HowToPlayOfferItem: React.FC<Banner> = ({
+export const HowToPlayOfferItem: React.FC<Offer> = ({
                                                          id,
                                                          link,
-                                                         offerCategory,
-                                                         bannerDetails,
-                                                         bannerPhotoIdList,
+                                                         offerType,
+                                                         details,
+                                                         photoIdList,
                                                          order,
                                                          index,
                                                          buttonName
@@ -17,6 +17,8 @@ export const HowToPlayOfferItem: React.FC<Banner> = ({
     const numberMap: string[] = ['', 'second', 'third', 'fourth'];
 
     return (
+        photoIdList && photoIdList.length > 0
+        &&
         <div className="col-xl-3 col-sm-6">
             <div className={`single-box ${numberMap[index % 4]}`}>
                 <div className="icon-box">
@@ -24,13 +26,13 @@ export const HowToPlayOfferItem: React.FC<Banner> = ({
                         key={`image-${id}`}
                         width="100"
                         height="100"
-                        src={`${'https://one-dollar-admin.onrender.com'}/v1/public/banner/image/${bannerPhotoIdList[0]}`}
+                        src={`${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}`}
                         className="img-fluid mx-auto rounded"
                         alt=""
                     />
                 </div>
                 <br></br>
-                <h5>{bannerDetails}</h5>
+                <h5>{details}</h5>
                 <p>{buttonName}</p>
             </div>
 

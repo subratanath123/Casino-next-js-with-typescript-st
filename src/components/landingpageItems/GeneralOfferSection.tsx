@@ -1,21 +1,19 @@
 import React, {useEffect, useState} from 'react';
-import {Banner} from "@/constants/Constants";
+import {Offer} from "@/constants/Constants";
 import axios from "axios";
-import {HowToPlayOfferItem} from "@/components/landingpageItems/HowToPlayOfferItem";
-import {OnlineGameOfferItem} from "@/components/landingpageItems/OnlineGameOfferItem";
 import {GeneralOfferItem} from "@/components/landingpageItems/GeneralOfferItem";
 import Link from "next/link";
 
 export default function GeneralOfferSection() {
     const [state, setState] = useState<{
-        items: Banner[]
+        items: Offer[]
     }>({
         items: []
     });
 
     useEffect(() => {
             axios
-                .get('https://one-dollar-admin.onrender.com/v1/public/banner/offerList/Offer')
+                .get('https://one-dollar-admin.onrender.com/v1/public/offer/offerList/Offer')
                 .then((response) => {
 
                     setState({
@@ -49,7 +47,7 @@ export default function GeneralOfferSection() {
                     </div>
                     <div className="row cus-mar">
 
-                        {state.items.map((item: Banner, index: number) => (
+                        {state.items.map((item: Offer, index: number) => (
                             <GeneralOfferItem key={`online-games-${index}`} {...item} />
                         ))}
 

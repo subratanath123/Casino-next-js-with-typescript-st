@@ -1,19 +1,18 @@
-import React, {useEffect, useLayoutEffect, useState} from 'react';
-import {Banner} from "@/constants/Constants";
+import React, {useEffect, useState} from 'react';
+import {Offer} from "@/constants/Constants";
 import axios from "axios";
 import {OnlineGameOfferItem} from "@/components/landingpageItems/OnlineGameOfferItem";
-import Link from "next/link";
 
 export default function OnlineGameOfferSection() {
     const [state, setState] = useState<{
-        items: Banner[]
+        items: Offer[]
     }>({
         items: []
     });
 
     useEffect(() => {
             axios
-                .get('https://one-dollar-admin.onrender.com/v1/public/banner/offerList/OnlineGame')
+                .get('https://one-dollar-admin.onrender.com/v1/public/offer/OnlineGame')
                 .then((response) => {
 
                     setState({
@@ -49,7 +48,7 @@ export default function OnlineGameOfferSection() {
                     </div>
                     <div className="row wow fadeInUp">
                         <div className="games-carousel  row">
-                            {state.items.map((item: Banner, index: number) => (
+                            {state.items.map((item: Offer, index: number) => (
                                 <OnlineGameOfferItem key={`online-games-${index}`} {...item} />
                             ))}
                         </div>

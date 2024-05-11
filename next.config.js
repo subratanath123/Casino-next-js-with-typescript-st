@@ -1,5 +1,5 @@
 module.exports = {
     images: {
-        domains: ['one-dollar-admin.onrender.com'],
+        domains: ['one-dollar-admin.onrender.com', 'localhost'],
     },
 }

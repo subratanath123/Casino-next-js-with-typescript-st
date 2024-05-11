@@ -4,38 +4,41 @@ export interface OfferSectionProps {
     title: string;
     subTitle: string;
     description: string;
-    items: Banner[];
+    items: Offer[];
 }
 
-export interface Banner {
+export interface Offer {
     id: string;
     link: string;
     index: number; //for frontend use
     bannerCategory: string;
-    offerCategory: string;
-    bannerDetails: string;
-    bannerSubtitle: string;
+    offerType: string;
+    details: string;
+    subtitle: string;
+    title: string;
     order: string;
     validityFrom: string;
     validityTo: string;
     buttonName: string;
     deleted: string;
-    bannerPhotoIdList: string[]
+    photoIdList: string[]
 }
 
 export interface BannerList {
-    bannerList: Banner[]
+    bannerList: Offer[]
 }
 
-export type BannerCategory = 'Offer' | 'VipOffer' | 'SlideBanner' | 'OnlineGame';
-export const offerUiLabelMap: Map<BannerCategory, String> = (() => {
-    const map = new Map<BannerCategory, String>();
+export type OfferCategory = 'Offer' | 'VipOffer' | 'SlideBanner' | 'OnlineGame';
+export type OfferType = "CasinoOffer" | "CryptoOffer" | "LotteryOffer" | "SportsOffer";
+
+export const offerUiLabelMap: Map<OfferType, String> = (() => {
+    const map = new Map<OfferType, String>();
 
     // Initialize the map with default values
-    map.set("Offer", "Casino");
-    map.set("VipOffer", "Crypto");
-    map.set("SlideBanner", "Lottery");
-    map.set("OnlineGame", "Sports");
+    map.set("CasinoOffer", "Casino");
+    map.set("CryptoOffer", "Crypto");
+    map.set("LotteryOffer", "Lottery");
+    map.set("SportsOffer", "Sports");
 
     return map;
 })();

@@ -2,7 +2,7 @@
 
 import Script from "next/script";
 import React, {useEffect, useState} from "react";
-import {Banner} from "@/constants/Constants";
+import {Offer} from "@/constants/Constants";
 import axios from "axios";
 import {GeneralOffer} from "@/components/childPageItems/GeneralOffer";
 import Link from "next/link";
@@ -12,7 +12,7 @@ import Image from "next/image";
 export default function ShowOnlineGames() {
 
     const [state, setState] = useState<{
-        items: Banner[],
+        items: Offer[],
         page: number,
         limit: number,
     }>({
@@ -23,7 +23,7 @@ export default function ShowOnlineGames() {
 
     function fetchItems() {
         axios
-            .get('https://one-dollar-admin.onrender.com/v1/public/banner/offerList/OnlineGame', {
+            .get('https://one-dollar-admin.onrender.com/v1/public/offer/OnlineGame', {
                 params: {
                     "page": state.page,
                     "limit": state.limit,
@@ -92,7 +92,7 @@ export default function ShowOnlineGames() {
                                     <div className="tab-pane fade show active" id="slots-all"
                                          role="tabpanel" aria-labelledby="slots-all-tab">
                                         <div className="row row-cols-1 row-cols-md-5 g-5">
-                                            {state.items.map((item: Banner, index: number) => (
+                                            {state.items.map((item: Offer, index: number) => (
                                                 <GeneralOffer key={`online-games-${index}`} {...item} />
                                             ))}
                                         </div>

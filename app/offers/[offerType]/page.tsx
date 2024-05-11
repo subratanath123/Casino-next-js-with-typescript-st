@@ -2,17 +2,17 @@
 
 import Script from "next/script";
 import React, {useEffect, useState} from "react";
-import {Banner, BannerCategory, offerUiLabelMap} from "@/constants/Constants";
+import {Offer, OfferType, offerUiLabelMap} from "@/constants/Constants";
 import axios from "axios";
 import {GeneralOfferItem} from "@/components/landingpageItems/GeneralOfferItem";
 import Link from "next/link";
 import ConsumerLayout from "@/components/ConsumerLayout";
 import Image from "next/image";
 
-export default function ShowOnlineGames({params}: { params: { bannerCategory: BannerCategory } }) {
+export default function ShowOffers({params}: { params: { offerType: OfferType } }) {
 
     const [state, setState] = useState<{
-        items: Banner[],
+        items: Offer[],
         page: number,
         limit: number,
     }>({
@@ -23,7 +23,7 @@ export default function ShowOnlineGames({params}: { params: { bannerCategory: Ba
 
     function fetchItems() {
         axios
-            .get('https://one-dollar-admin.onrender.com/v1/public/banner/offerList/' + params.bannerCategory, {
+            .get('https://one-dollar-admin.onrender.com/v1/public/offer/offerList/' + params.offerType, {
                 params: {
                     "page": state.page,
                     "limit": state.limit,
@@ -62,7 +62,7 @@ export default function ShowOnlineGames({params}: { params: { bannerCategory: Ba
                                     <div className="main-content">
                                         <h1 className="sub-title">
                                             <b>
-                                                {offerUiLabelMap.get(params.bannerCategory)?.toUpperCase()}
+                                                {offerUiLabelMap.get(params.offerType)?.toUpperCase()}
                                             </b>
                                         </h1>
                                         <h4 className="title">WELCOME BONUS</h4>
@@ -76,7 +76,7 @@ export default function ShowOnlineGames({params}: { params: { bannerCategory: Ba
             </section>
             <section className="promotions">
                 <div className="col-md-8 d-flex justify-content-center ">
-                    <Image src={`/assets/images/${offerUiLabelMap.get(params.bannerCategory)}-icon.png`} alt="pokers"
+                    <Image src={`/assets/images/${offerUiLabelMap.get(params.offerType)}-icon.png`} alt="pokers"
                            width="600" height="300"
                            className="floated-image"/>
                 </div>
@@ -97,7 +97,7 @@ export default function ShowOnlineGames({params}: { params: { bannerCategory: Ba
                                                     {
                                                         Array.from(offerUiLabelMap).map(([key, value]) => (
                                                             <div className="col-auto mb-2 mb-md-0">
-                                                                <a href={`/offers/` + key} className={`red-button${(key == params.bannerCategory ? "-marked": "")}`}>
+                                                                <a href={`/offers/` + key} className={`red-button${(key == params.offerType ? "-marked": "")}`}>
                                                                     {value}
                                                                 </a>
                                                             </div>
@@ -112,7 +112,7 @@ export default function ShowOnlineGames({params}: { params: { bannerCategory: Ba
                                         <br/>
                                         <br/>
                                         <div className="row cus-mar">
-                                            {state.items.map((item: Banner, index: number) => (
+                                            {state.items.map((item: Offer, index: number) => (
                                                 <GeneralOfferItem key={`online-games-${index}`} {...item} />
                                             ))}
                                         </div>

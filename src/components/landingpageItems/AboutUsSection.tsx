@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Banner} from "@/constants/Constants";
+import {Offer} from "@/constants/Constants";
 import axios from "axios";
 import {HowToPlayOfferItem} from "@/components/landingpageItems/HowToPlayOfferItem";
 import Link from "next/link";
