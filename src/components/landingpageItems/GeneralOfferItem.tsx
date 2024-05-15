@@ -43,7 +43,7 @@ export const GeneralOfferItem: React.FC<Offer> = ({
                     <p>{details}</p>
                     <h5>{title || "Claim exclusive discount"}</h5>
                     <p>{subtitle || "Limited time discount"}</p>
-                    <Link href={link} className="cmn-btn">
+                    <Link target="_blank" href={link} className="cmn-btn">
                         {buttonName || "Claim"}
                     </Link>
                 </div>

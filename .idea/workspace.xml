@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="71a3457b-cb94-45c5-b0ce-a7652254fba0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/aboutus/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/aboutus/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/childPageItems/GeneralOffer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/childPageItems/GeneralOffer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/HowToPlayOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/HowToPlayOfferItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/VipOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/VipOfferItem.tsx" afterDir="false" />
     </list>
@@ -102,12 +103,24 @@
       <workItem from="1714057573413" duration="490000" />
       <workItem from="1714058123264" duration="5099000" />
       <workItem from="1714118786161" duration="26659000" />
-      <workItem from="1715406933304" duration="6268000" />
+      <workItem from="1715406933304" duration="6960000" />
+      <workItem from="1715792415200" duration="3273000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

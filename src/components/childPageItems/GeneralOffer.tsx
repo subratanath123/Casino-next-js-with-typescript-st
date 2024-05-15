@@ -16,7 +16,7 @@ export const GeneralOffer: React.FC<Offer> = ({
     return (
         <div className="col-md-3 col-xl-2 col-sm-6">
             <button className="card" style={{backgroundColor: "transparent"}}
-                 onClick={event => window.location.href = link}>
+                 onClick={event => window.open(link, '_blank')}>
                 <img
                     key={`image-${id}`}
                     width="100%"

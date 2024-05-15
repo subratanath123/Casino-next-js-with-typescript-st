@@ -13,11 +13,7 @@ export default function Contact() {
                     <div className="banner-content">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-8 col-md-10">
-                                    <div className="main-content">
-                                        <h1>Contact</h1>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>

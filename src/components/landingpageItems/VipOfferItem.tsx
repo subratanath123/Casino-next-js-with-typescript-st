@@ -13,7 +13,7 @@ export const VipOfferItem: React.FC<Offer> = ({
                                                    buttonName
                                                }) => (
     <div className="col-xl-4 col-sm-6">
-        <div className="single-box mid text-center" onClick={event => window.location.href = link}>
+        <div className="single-box mid text-center" onClick={event => window.open(link, '_blank')}>
             <div className="thumb">
                 <Image
                     key={`image-${id}`}
