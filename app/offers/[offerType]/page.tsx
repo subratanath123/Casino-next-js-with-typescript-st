@@ -18,7 +18,7 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
     }>({
         items: [],
         page: 0,
-        limit: 5
+        limit: 20
     });
 
     function fetchItems() {
@@ -65,8 +65,8 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
                                                 {offerUiLabelMap.get(params.offerType)?.toUpperCase()}
                                             </b>
                                         </h1>
-                                        <h4 className="title">WELCOME BONUS</h4>
-                                        <h2 className="title">UPTO $300 </h2>
+                                        <h4 className="title bold-title">WELCOME BONUS</h4>
+                                        <h2 className="title bold-title">UPTO $300 </h2>
                                     </div>
                                 </div>
                             </div>
@@ -117,8 +117,13 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
                                             ))}
                                         </div>
                                         <div className="btn-area mt-3 text-center">
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
+                                            <br></br>
                                             <Link href="javascript:void(0)"
-                                                  className="cmn-btn"
+                                                  className="btn-lg btn-success  rounded grow-on-hover" style={{color:"black", backgroundColor:"rgba(0,255,0,0.69)"}}
                                                   onClick={event => fetchItems()}
                                             >
                                                 Load More
@@ -135,7 +140,7 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
             <Script src="/assets/js/jquery.min.js"></Script>
             <Script src="/assets/js/jquery-ui.js"></Script>
             <Script src="/assets/js/bootstrap.min.js"></Script>
-            <Script src="/assets/js/fontawesome.js"></Script>
+            
             <Script src="/assets/js/plugin/slick.js"></Script>
             <Script src="/assets/js/plugin/jquery.nice-select.min.js"></Script>
             <Script src="/assets/js/plugin/counter.js"></Script>

@@ -14,7 +14,7 @@ export const GeneralOffer: React.FC<Offer> = ({
                                                }) => {
 
     return (
-        <div className="col-md-3 col-xl-2 col-sm-6">
+        <div className="col-md-3 col-xl-2 col-sm-6 zoom-on-hover">
             <button className="card" style={{backgroundColor: "transparent"}}
                  onClick={event => window.open(link, '_blank')}>
                 <img
@@ -26,13 +26,14 @@ export const GeneralOffer: React.FC<Offer> = ({
                     className="card-img-top"
                     alt=""
                 />
+
+                <div className="card-body">
+                    <h5 className="card-title">{details || "Claim Offer"}</h5>
+                    <p className="card-text">
+                        {subtitle || "Limited Time Offer. You you miss it you will regret"}
+                    </p>
+                </div>
             </button>
-            <div className="card-body">
-                <h5 className="card-title">{details || "Claim Offer"}</h5>
-                <p className="card-text">
-                    {subtitle || "Limited Time Offer. You you miss it you will regret"}
-                </p>
-            </div>
         </div>
     );
 };

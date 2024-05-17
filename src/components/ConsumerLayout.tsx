@@ -17,7 +17,7 @@ export default function ConsumerLayout({children}: { children: React.ReactNode }
 
                 <link rel="shortcut icon" href="/assets/images/fav.png" type="image/x-icon"/>
                 <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
-                <link rel="stylesheet" href="/assets/css/fontawesome.min.css"/>
+                <link rel="stylesheet" href="/assets/css/ara-font.css"/>
                 <link rel="stylesheet" href="/assets/css/jquery-ui.css"/>
                 <link rel="stylesheet" href="/assets/css/plugin/nice-select.css"/>
                 <link rel="stylesheet" href="/assets/css/plugin/magnific-popup.css"/>

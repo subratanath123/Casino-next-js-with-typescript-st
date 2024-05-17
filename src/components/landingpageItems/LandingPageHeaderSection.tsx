@@ -15,9 +15,9 @@ export const LandingPageHeaderSection = () => {
                                 <div className="main-content">
                                     <div className="top-area section-text text-center">
                                         <h2 className="title">Play & Win!</h2>
-                                        <h3 className="sub-title">
+                                        <h2 className="sub-title">
                                             Discover exclusive deals on your favorite betting categories
-                                        </h3>
+                                        </h2>
                                         <p>Explore exclusive offers on casino games, crypto, lottery, and
                                             sports betting.Dive into our world of free online games – all
                                             without spending a dime!</p>

@@ -16,9 +16,130 @@
 # Section Area
 # Footer Area
 ============================================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.hover-expand-button {
+  min-width: 120px;
+  font-family: "ara bold font";
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.hover-expand-button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.hover-expand-button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.hover-expand-button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.hover-expand-button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.glow-on-hover {
+  min-width: 140px;
+  position: relative; /* Required for pseudo-element positioning */
+  overflow: hidden; /* Prevent glow from overflowing the button */
+  font-family: "ara bold font";
+}
+
+.glow-on-hover:after {
+  content: ""; /* Empty content for pseudo-element */
+  position: absolute;
+  font-family: "ara bold font";
+  top: 0;
+  left: -100%; /* Start glow off-screen to the left */
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)); /* Black gradient for glow */
+  animation: glowing 1.5s ease-in-out infinite alternate; /* Animation for movement */
+}
+
+@keyframes glowing {
+  from { left: -100%; }
+  to { left: 100%; }
+}
+
+.rotate-grow-right-fade-expand {
+  position: relative; /* Required for pseudo-element positioning */
+  transform-origin: right bottom; /* Set rotation origin to right bottom */
+  overflow: hidden; /* Prevent content overflow during animation */
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out; /* Transitions for animation */
+}
+
+.rotate-grow-right-fade-expand:after {
+  content: ""; /* Empty content for pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  opacity: 0; /* Initial opacity for hidden state */
+  transition: opacity 0.3s ease-in-out; /* Transition for fade-in */
+}
+
+.rotate-grow-right-fade-expand:hover {
+  transform: rotateY(90deg) scale(1.1); /* Combine rotation and grow on hover */
+  width: 200px; /* Set desired expansion width on hover (adjust as needed) */
+}
+
+.rotate-grow-right-fade-expand:hover:after {
+  opacity: 1; /* Fade in the overlay on hover */
+}
+
+.grow-on-hover {
+  font-family: "ara bold font";
+  transition: transform 0.3s ease-in-out; /* Transition for size change */
+}
+
+.grow-on-hover:hover {
+  transform: scale(1.05); /* Increase button size slightly on hover */
+}
+
+.rotate-grow-right {
+  position: relative; /* Required for pseudo-element positioning */
+  transform-origin: right bottom; /* Set rotation origin to right bottom */
+  transition: transform 0.3s ease-in-out; /* Transition for animation */
+}
+
+.rotate-grow-right:hover {
+  transform: rotateY(90deg) scale(1.1); /* Rotate 90 degrees and grow slightly on hover */
+}
+
+.zoom-on-hover {
+  transition: transform 0.3s ease-in-out; /* Smooth zoom transition */
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.1); /* Increase size by 10% on hover */
+}
+
 :root {
-  --body-font: "Poppins", sans-serif;
+  --body-font: "ara blk font", sans-serif;
   --body-color: #140836;
   --primary-color: rgb(161, 255, 0);
   --secondary-color: rgb(76, 41, 126);
@@ -938,6 +1059,35 @@ label {
     transform: translate(0px, 0px);
   }
 }
+
+a {
+  font-family: "jost light font";
+}
+
+.red-button-marked {
+  font-family: "jost light font";
+}
+
+p {
+  font-family: "jost mid font";
+}
+
+h3 {
+  font-family: "ara font";
+}
+
+.bold-title {
+  font-family: "jost semi bold font";
+}
+
+h4 {
+  font-family: "ara bold font";
+}
+
+h5 {
+  font-family: "jost semi bold font";
+}
+
 .header-section {
   position: absolute;
   top: 0;
@@ -998,7 +1148,7 @@ label {
   position: absolute;
   content: "C";
   border: none;
-  font-family: "ara font";
+  font-family: "jost font";
   font-weight: 400;
   font-size: 14px;
 }
@@ -1355,7 +1505,6 @@ label {
 .how-works .single-box.mid::before, .how-works .single-box.mid::after {
   content: "";
   position: absolute;
-  background-image: url(../images/icon/how-works-arrow-1.png);
   background-size: auto;
   background-repeat: no-repeat;
   width: 157px;

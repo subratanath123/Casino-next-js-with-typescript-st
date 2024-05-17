@@ -18,7 +18,7 @@ export default function ShowOnlineGames() {
     }>({
         items: [],
         page: 0,
-        limit: 5
+        limit: 20
     });
 
     function fetchItems() {
@@ -98,7 +98,7 @@ export default function ShowOnlineGames() {
                                         </div>
                                         <div className="btn-area mt-3 text-center">
                                             <Link href="javascript:void(0)"
-                                                  className="cmn-btn"
+                                                  className="btn-lg btn-success  rounded grow-on-hover" style={{color:"black", backgroundColor:"#00FF00"}}
                                                   onClick={event => fetchItems()}
                                             >
                                                 Load More
@@ -115,7 +115,7 @@ export default function ShowOnlineGames() {
             <Script src="/assets/js/jquery.min.js"></Script>
             <Script src="/assets/js/jquery-ui.js"></Script>
             <Script src="/assets/js/bootstrap.min.js"></Script>
-            <Script src="/assets/js/fontawesome.js"></Script>
+            
             <Script src="/assets/js/plugin/slick.js"></Script>
             <Script src="/assets/js/plugin/jquery.nice-select.min.js"></Script>
             <Script src="/assets/js/plugin/counter.js"></Script>

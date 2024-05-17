@@ -16,9 +16,8 @@
 # Section Area
 # Footer Area
 ============================================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
-  --body-font: "Poppins", sans-serif;
+  --body-font: "ara blk font", sans-serif;
   --body-color: #140836;
   --primary-color: #1d1041;
   --secondary-color: #3a2372;

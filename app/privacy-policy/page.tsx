@@ -100,7 +100,7 @@ export default function PrivacyPolicy() {
             <Script src="/assets/js/jquery.min.js"></Script>
             <Script src="/assets/js/jquery-ui.js"></Script>
             <Script src="/assets/js/bootstrap.min.js"></Script>
-            <Script src="/assets/js/fontawesome.js"></Script>
+            
             <Script src="/assets/js/plugin/slick.js"></Script>
             <Script src="/assets/js/plugin/jquery.nice-select.min.js"></Script>
             <Script src="/assets/js/plugin/counter.js"></Script>

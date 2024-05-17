@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="71a3457b-cb94-45c5-b0ce-a7652254fba0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/aboutus/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/aboutus/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/childPageItems/GeneralOffer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/childPageItems/GeneralOffer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/AboutUsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/AboutUsSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/VipOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/VipOfferItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/usr/local/one-dollar-static-customer-frontend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/usr/local/one-dollar-static-customer-frontend/public/assets-profile/webfonts&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,11 +50,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets-profile/webfonts" />
+      <recent name="$PROJECT_DIR$/public/assets/webfonts" />
       <recent name="$PROJECT_DIR$/src/components/landingpageItems" />
       <recent name="$PROJECT_DIR$/app/profile/vipoffers" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/games" />
@@ -105,6 +106,9 @@
       <workItem from="1714118786161" duration="26659000" />
       <workItem from="1715406933304" duration="6960000" />
       <workItem from="1715792415200" duration="3273000" />
+      <workItem from="1715871704994" duration="657000" />
+      <workItem from="1715922024815" duration="12735000" />
+      <workItem from="1716022616092" duration="2016000" />
     </task>
     <servers />
   </component>
@@ -127,7 +131,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/page.tsx</url>
-          <line>13</line>
+          <line>16</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -6,36 +6,43 @@ export default function HowToPlayOfferSection() {
         <section className="features" id="howToPlay">
             <div className="container">
                 <div className="row justify-content-center wow fadeInUp">
-                    <div className="col-lg-6 text-center">
+                    <div className="col-lg-8 text-center">
                         <div className="section-top">
                             <div className="section-text text-center">
                                 <br/>
                                 <br/>
-                                <h3 className="sub-title"><b>Unlock Your Winning Edge: Explore Our Best Offers!</b></h3>
-                                <p>Discover free bets, bonus spins, enhanced odds, and more - all
-                                    designed
-                                    to elevate your free betting experience. Find your perfect offer and
-                                    take your game to the next level!</p>
+                                <h2 className="sub-title"><b>Unlock Your Winning Edge: Explore Our Best Offers!</b></h2>
+                                <p>Discover Free Bets, Bonus Spins, Enhanced Odds, And More - All Designed to Elevate
+                                    Your Free Betting Experience. Find Your Perfect Offer And Take Your Game To The Next
+                                    Level!</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="row cus-mar pt-120">
-                    <div className="col-xl-6 col-sm-6">
-                        <div className="offers one" onClick={()=> {window.location.href = "offers/CryptoOffer"}}>
+                    <div className="col-xl-6 col-sm-6 zoom-on-hover" style={{cursor: "pointer"}}>
+                        <div className="offers one" onClick={() => {
+                            window.location.href = "offers/CryptoOffer"
+                        }}>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-sm-6">
-                        <div className="offers second" onClick={()=> {window.location.href = "offers/CasinoOffer"}}>
+                    <div className="col-xl-6 col-sm-6 zoom-on-hover" style={{cursor: "pointer"}}>
+                        <div className="offers second" onClick={() => {
+                            window.location.href = "offers/CasinoOffer"
+                        }}>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-sm-6">
-                        <div className="offers third" onClick={()=> {window.location.href = "offers/LotteryOffer"}}>
+                    <div className="col-xl-6 col-sm-6 zoom-on-hover" style={{cursor: "pointer"}}>
+                        <div className="offers third" onClick={() => {
+                            window.location.href = "offers/LotteryOffer"
+                        }}>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-sm-6">
-                        <div className="offers fourth" onClick={()=> {window.location.href = "offers/SportsOffer"}}>
+                    <div className="col-xl-6 col-sm-6 zoom-on-hover" style={{cursor: "pointer"}}>
+                        <div className="offers fourth" onClick={() => {
+                            window.location.href = "offers/SportsOffer"
+                        }}>
                         </div>
                     </div>
                 </div>
@@ -44,9 +51,8 @@ export default function HowToPlayOfferSection() {
                 <div className="row justify-content-center wow fadeInUp">
                     <div className="col-lg-12">
                         <div className="btn-area mt-40 text-center">
-                            <a href="/offers/CryptoOffer" className="cmn-btn">
+                            <a href="/offers/CryptoOffer" className="btn-lg btn-success  rounded glow-on-hover" style={{color:"black", backgroundColor:"#00FF00"}}>
                                 View All
-                                <i className="icon-d-right-arrow-2"></i>
                             </a>
                         </div>
                     </div>

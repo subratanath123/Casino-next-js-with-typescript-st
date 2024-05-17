@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Offer} from "@/constants/Constants";
 import axios from "axios";
 import {OnlineGameOfferItem} from "@/components/landingpageItems/OnlineGameOfferItem";
+import Carousel from "react-multi-carousel";
 
 export default function OnlineGameOfferSection() {
     const [state, setState] = useState<{
@@ -9,6 +10,7 @@ export default function OnlineGameOfferSection() {
     }>({
         items: []
     });
+
 
     useEffect(() => {
             axios
@@ -47,20 +49,39 @@ export default function OnlineGameOfferSection() {
                         </div>
                     </div>
                     <div className="row wow fadeInUp">
-                        <div className="games-carousel  row">
-                            {state.items.map((item: Offer, index: number) => (
-                                <OnlineGameOfferItem key={`online-games-${index}`} {...item} />
-                            ))}
+
+                            <Carousel key="onlineGameCarosol" responsive={{
+                                superLargeDesktop: {
+                                    // the naming can be any, depends on you.
+                                    breakpoint: {max: 4000, min: 3000},
+                                    items: 5
+                                },
+                                desktop: {
+                                    breakpoint: {max: 3000, min: 1024},
+                                    items: 4
+                                },
+                                tablet: {
+                                    breakpoint: {max: 1024, min: 464},
+                                    items: 3
+                                },
+                                mobile: {
+                                    breakpoint: {max: 464, min: 0},
+                                    items: 1
+                                }
+                            }}>
+                                {state.items.map((item: Offer, index: number) => (
+                                    <OnlineGameOfferItem key={`online-games-${index}`} {...item} />
+                                ))}
+                            </Carousel>
+
                         </div>
                         <div className="col-lg-12">
                             <div className="btn-area mt-40 text-center">
-                                <a href="/games" className="cmn-btn">
+                                <a href="/games" className="btn-lg btn-success  rounded glow-on-hover" style={{color:"black", backgroundColor:"#00FF00"}}>
                                     All Games
-                                    <i className="icon-d-right-arrow-2"></i>
                                 </a>
                             </div>
                         </div>
-                    </div>
                     
                 </div>
             </div>

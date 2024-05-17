@@ -28,7 +28,7 @@ export const GeneralOfferItem: React.FC<Offer> = ({
                      backgroundRepeat: "no-repeat",
                  }}>
 
-                <div className="icon-box">
+                <div className="icon-box" style={{maxWidth:"150px", minWidth:"150px"}}>
                     <Image
                         key={`image-${id}`}
                         width="100"
@@ -43,7 +43,8 @@ export const GeneralOfferItem: React.FC<Offer> = ({
                     <p>{details}</p>
                     <h5>{title || "Claim exclusive discount"}</h5>
                     <p>{subtitle || "Limited time discount"}</p>
-                    <Link target="_blank" href={link} className="cmn-btn">
+                    <Link target="_blank" href={link}
+                          className="btn-lg btn-success  rounded hover-expand-button" style={{color:"black", backgroundColor:"#00FF00"}}>
                         {buttonName || "Claim"}
                     </Link>
                 </div>
