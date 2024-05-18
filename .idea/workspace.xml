@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="71a3457b-cb94-45c5-b0ce-a7652254fba0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/AboutUsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/AboutUsSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ConsumerLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConsumerLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/LandingPageHeaderSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/LandingPageHeaderSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +103,8 @@
       <workItem from="1715792415200" duration="3273000" />
       <workItem from="1715871704994" duration="657000" />
       <workItem from="1715922024815" duration="12735000" />
-      <workItem from="1716022616092" duration="2016000" />
+      <workItem from="1716022616092" duration="2647000" />
+      <workItem from="1716054849252" duration="1513000" />
     </task>
     <servers />
   </component>

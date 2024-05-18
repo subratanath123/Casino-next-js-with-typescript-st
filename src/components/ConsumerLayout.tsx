@@ -34,40 +34,42 @@ export default function ConsumerLayout({children}: { children: React.ReactNode }
 
             <header className="header-section" style={{zIndex: "99999999999999"}}>
                 <div className="overlay">
-                    <div className="container">
+                    <div className="container" style={{maxHeight:"100px"}}>
                         <div className="row d-flex header-area">
                             <nav className="navbar navbar-expand-lg navbar-light">
                                 <a className="navbar-brand" href="/">
                                     <img src="/assets/images/fav.png" className="fav d-none d-lg-block d-xl-none"
                                          alt="fav"/>
-                                    <img src="/assets/images/logo.png" className="logo d-block d-lg-none d-xl-block"
+                                    <img src="/assets/images/logo.png" style={{width:"80px"}} className="logo d-block d-lg-none d-xl-block"
                                          alt="logo"/>
                                 </a>
 
-                                <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#navbar-content">
-                                    <i className="fas fa-bars"></i>
+
+                                <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbar-content" aria-controls="navbarNav" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                    <span className="navbar-toggler-icon"></span>
                                 </button>
 
                                 <div className="collapse navbar-collapse justify-content-between"
                                      id="navbar-content">
-                                    <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
-                                        <li className="nav-item">
+                                    <ul className="navbar-nav mr-auto mb-2 mb-lg-0 text-center">
+                                        <li className="nav-item" style={{width:"170px", textAlign:"left"}}>
                                             <a className={`nav-link ${pathName == "/" && "active"}`} href="/">Home</a>
                                         </li>
-                                        <li className="nav-item">
+                                        <li className="nav-item" style={{width:"180px", textAlign:"left"}}>
                                             <a className={`nav-link ${pathName == "/games" && "active"}`} href="/games">Online
                                                 Games</a>
                                         </li>
-                                        <li className="nav-item">
+                                        <li className="nav-item" style={{width:"170px", textAlign:"left"}}>
                                             <a className={`nav-link ${pathName == "/offers/CasinoOffer" && "active"}`}
                                                href="/offers/CasinoOffer">Offers</a>
                                         </li>
-                                        <li className="nav-item">
+                                        <li className="nav-item" style={{width:"170px", textAlign:"left"}}>
                                             <a className={`nav-link ${pathName == "/aboutus" && "active"}`}
                                                href="/aboutus">About Us</a>
                                         </li>
-                                        <li className="nav-item">
+                                        <li className="nav-item" style={{width:"170px", textAlign:"left"}}>
                                             <a className={`nav-link ${pathName == "/contact" && "active"}`}
                                                href="/contact">Contact Us</a>
                                         </li>
