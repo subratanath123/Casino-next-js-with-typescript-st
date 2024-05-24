@@ -100,22 +100,22 @@ export default function ConsumerLayout({children}: { children: React.ReactNode }
                                              alt="logo"/>
                                     </a>
                                     <ul className="navbar-nav mr-auto mb-2 mb-lg-0 text-center ">
-                                        <li className="nav-item" style={{width: "170px", textAlign: "left"}}>
+                                        <li className="nav-item" >
                                             <a className={`nav-link ${pathName == "/" && "active"}`} href="/">Home</a>
                                         </li>
-                                        <li className="nav-item" style={{width: "180px", textAlign: "left"}}>
+                                        <li className="nav-item" style={{marginLeft: "100px", textAlign: "left"}}>
                                             <a className={`nav-link ${pathName == "/games" && "active"}`} href="/games">Online
                                                 Games</a>
                                         </li>
-                                        <li className="nav-item" style={{width: "170px", textAlign: "left"}}>
+                                        <li className="nav-item" style={{marginLeft: "100px", textAlign: "left"}}>
                                             <a className={`nav-link ${pathName == "/offers/CasinoOffer" && "active"}`}
                                                href="/offers/CasinoOffer">Offers</a>
                                         </li>
-                                        <li className="nav-item" style={{width: "170px", textAlign: "left"}}>
+                                        <li className="nav-item" style={{marginLeft: "100px", textAlign: "left"}}>
                                             <a className={`nav-link ${pathName == "/aboutus" && "active"}`}
                                                href="/aboutus">About Us</a>
                                         </li>
-                                        <li className="nav-item" style={{width: "170px", textAlign: "left"}}>
+                                        <li className="nav-item" style={{marginLeft: "100px", textAlign: "left"}}>
                                             <a className={`nav-link ${pathName == "/contact" && "active"}`}
                                                href="/contact">Contact Us</a>
                                         </li>

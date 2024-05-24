@@ -5,33 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a3457b-cb94-45c5-b0ce-a7652254fba0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/contactus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/header-bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/icon/arrow-up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/icon/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/icon/icon--twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/icon/icon-fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/icon/icon-instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/icon/icon-whatsapp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/icon/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/icon/twitter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/one-dollar-static-customer-frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/one-dollar-static-customer-frontend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/aboutus/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/aboutus/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/games/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/games/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/offers/[offerType]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/offers/[offerType]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/privacy-policy/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/privacy-policy/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/terms-conditions/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/terms-conditions/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/aboutus.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/aboutus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/privacy-policy.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/privacy-policy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/pages/_banner-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/pages/_banner-footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ConsumerLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConsumerLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/LandingPageHeaderSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/LandingPageHeaderSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +108,7 @@
       <workItem from="1716054849252" duration="2035000" />
       <workItem from="1716224196865" duration="3040000" />
       <workItem from="1716397577072" duration="806000" />
-      <workItem from="1716522095519" duration="11238000" />
+      <workItem from="1716522095519" duration="12008000" />
     </task>
     <servers />
   </component>

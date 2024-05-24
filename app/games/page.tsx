@@ -53,7 +53,7 @@ export default function ShowOnlineGames() {
 
     return (
         <ConsumerLayout>
-            <section className="banner-section inner-banner games">
+            <section className="banner-section inner-banner privacy">
                 <div className="overlay">
                     <div className="banner-content">
                         <div className="container">
@@ -69,9 +69,9 @@ export default function ShowOnlineGames() {
                 </div>
             </section>
             <section className="games-section">
-                <div className="col-md-8 d-flex justify-content-center ">
-                    <Image src="/assets/images/pokers.png" alt="pokers" width="600" height="300" className="floated-image"/>
-                </div>
+                {/*<div className="col-md-8 d-flex justify-content-center ">*/}
+                {/*    <Image src="/assets/images/pokers.png" alt="pokers" width="600" height="300" className="floated-image"/>*/}
+                {/*</div>*/}
 
                 <div className="overlay pb-120">
                     <div className="container pt-120">

@@ -53,7 +53,7 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
 
     return (
         <ConsumerLayout>
-            <section className="banner-section inner-banner games">
+            <section className="banner-section inner-banner privacy">
                 <div className="overlay">
                     <div className="banner-content">
                         <div className="container">
@@ -75,11 +75,11 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
                 </div>
             </section>
             <section className="promotions">
-                <div className="col-md-8 d-flex justify-content-center ">
-                    <Image src={`/assets/images/${offerUiLabelMap.get(params.offerType)}-icon.png`} alt="pokers"
-                           width="600" height="300"
-                           className="floated-image"/>
-                </div>
+                {/*<div className="col-md-8 d-flex justify-content-center ">*/}
+                {/*    <Image src={`/assets/images/${offerUiLabelMap.get(params.offerType)}-icon.png`} alt="pokers"*/}
+                {/*           width="600" height="300"*/}
+                {/*           className="floated-image"/>*/}
+                {/*</div>*/}
 
                 <div className="overlay pt-120 pb-120">
                     <div className="container pt-120">
