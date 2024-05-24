@@ -57,20 +57,10 @@ export default function ShowOnlineGames() {
                 <div className="overlay">
                     <div className="banner-content">
                         <div className="container">
-                            <div className="row">
+                            <div className="row" style={{minHeight: "160px"}}>
                                 <div className="col-lg-4 col-md-4">
                                     <div className="main-content">
                                         <h1>Games</h1>
-                                        <div className="breadcrumb-area">
-                                            <nav aria-label="breadcrumb">
-                                                <ol className="breadcrumb d-flex align-items-center">
-                                                    <li className="breadcrumb-item"><Link href="">Home</Link></li>
-                                                    <li className="breadcrumb-item active" aria-current="page">Games
-                                                    </li>
-                                                </ol>
-                                            </nav>
-
-                                        </div>
                                     </div>
                                 </div>
                             </div>

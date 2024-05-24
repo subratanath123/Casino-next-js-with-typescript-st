@@ -22,7 +22,7 @@ export default function Dashboard() {
                 <OnlineGameOfferSection/>
                 <HowToPlayOfferSection/>
                 <AboutUsSection/>
-                <CustomerReviewSection/>
+                {/*<CustomerReviewSection/>*/}
             </ConsumerLayout>
 
             <Script src="/assets/js/jquery.min.js"></Script>

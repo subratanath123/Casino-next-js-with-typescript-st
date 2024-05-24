@@ -23,7 +23,7 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
 
     function fetchItems() {
         axios
-            .get('https://one-dollar-admin.onrender.com/v1/public/offer/offerList/' + params.offerType, {
+            .get('http://localhost:8000/v1/public/offer/offerList/' + params.offerType, {
                 params: {
                     "page": state.page,
                     "limit": state.limit,

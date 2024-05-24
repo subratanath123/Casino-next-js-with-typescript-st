@@ -8,12 +8,14 @@ export default function AboutUs() {
 
     return (
         <ConsumerLayout>
-            <section className="banner-section inner-banner games">
+            <section className="banner-section inner-banner aboutus">
                 <div className="overlay">
                     <div className="banner-content">
                         <div className="container">
-                            <div className="row">
-
+                            <div className="col-lg-8 col-md-10">
+                                <div className="main-content">
+                                    <h2>About Us</h2>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -22,9 +24,9 @@ export default function AboutUs() {
 
             <section className="about-us">
                 <div className="col-md-8 d-flex justify-content-center ">
-                    <Image src={`/assets/images/aboutus.png`} alt="pokers"
-                           width="650" height="350"
-                           className="floated-image"/>
+                    {/*<Image src={`/assets/images/aboutus.png`} alt="pokers"*/}
+                    {/*       width="650" height="350"*/}
+                    {/*       className="floated-image"/>*/}
                 </div>
                 <div className="overlay pt-120">
                     <div className="container">
@@ -42,14 +44,14 @@ export default function AboutUs() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="shape-area">
-                                    <img src="/assets/images/about-us-obj-1.png" alt="image"/>
-                                </div>
+                                {/*<div className="shape-area">*/}
+                                {/*    <img src="/assets/images/about-us-obj-1.png" alt="image"/>*/}
+                                {/*</div>*/}
                             </div>
                             <div className="col-lg-6">
                                 <div className="lottery-content">
                                     <div className="section-header">
-                                        <h5 className="sub-title">Free Play, Big Wins: We Fuel Your Betting Passion!</h5>
+                                        <h2 className="sub-title">Free Play, Big Wins: We Fuel Your Betting Passion!</h2>
                                         <h2 className="title">We're more than just free games -
                                             we're your training ground for future success!</h2>
                                         <p>Safe, secure, and endlessly entertaining. Explore the world of free betting
@@ -88,8 +90,8 @@ export default function AboutUs() {
                         <div className="row justify-content-between align-items-center">
                             <div className="col-lg-12">
                                 <div className="section-header text-center">
-                                    <h5 className="title">Why choose us</h5>
-                                    <h2 className="sub-title">Stop chasing shadows and start winning big!
+                                    <h2 className="sub-title">Why choose us</h2>
+                                    <h2 className="title">Stop chasing shadows and start winning big!
                                         Here's why you should choose us for your betting adventures!</h2>
                                     <p>
                                         Explore a vast selection of Casino, Crypto, Lottery, and Sports betting options.
@@ -106,7 +108,7 @@ export default function AboutUs() {
                                         <img src="/assets/images/icon/why-choose-icon-1.png" alt="image"/>
                                     </div>
                                     <h5>Endless Possibilities</h5>
-                                    <p>Get a vast library of free betting options, exclusive offers, and a secure platform to hone your skills. It's the ultimate free play experience!</p>
+                                    <p>Get a vast library of free betting options, exclusive offers, and a secure platform to hone your skills. </p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
@@ -139,20 +141,20 @@ export default function AboutUs() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-box">
                                     <div className="icon-area">
-                                        <img src="/assets/images/icon/why-choose-icon-5.png" alt="image"/>
-                                    </div>
-                                    <h5>Free Games to Play</h5>
-                                    <p>Take a break from the action and unwind with our collection of fun online games</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6">
-                                <div className="single-box">
-                                    <div className="icon-area">
                                         <img src="/assets/images/icon/why-choose-icon-6.png" alt="image"/>
                                     </div>
                                     <h5>Secure And Private</h5>
                                     <p>We don’t collect sensitive private information such as bank accounts, which makes your stay with us safe
                                         and private.</p>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="single-box">
+                                    <div className="icon-area">
+                                        <img src="/assets/images/icon/why-choose-icon-5.png" alt="image"/>
+                                    </div>
+                                    <h5>Free Games to Play</h5>
+                                    <p>Take a break from the action and unwind with our collection of fun online games</p>
                                 </div>
                             </div>
                         </div>

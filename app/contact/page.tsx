@@ -3,17 +3,22 @@ import React from "react";
 import Script from "next/script";
 import ConsumerLayout from "@/components/ConsumerLayout";
 import Image from "next/image";
+import {offerUiLabelMap} from "@/constants/Constants";
 
 export default function Contact() {
 
     return (
         <ConsumerLayout>
-            <section className="banner-section inner-banner games">
+            <section className="banner-section inner-banner contactus">
                 <div className="overlay">
                     <div className="banner-content">
                         <div className="container">
                             <div className="row">
-
+                                <div className="col-lg-8 col-md-10">
+                                    <div className="main-content">
+                                        <h2>Contact Us</h2>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -21,11 +26,6 @@ export default function Contact() {
             </section>
 
             <section className="get-in-touch">
-                <div className="col-md-8 d-flex justify-content-center ">
-                    <Image src={`/assets/images/contact.png`} alt="pokers"
-                           width="400" height="300"
-                           className="floated-image"/>
-                </div>
                 <div className="overlay pt-120 pb-120">
                     <div className="container">
 

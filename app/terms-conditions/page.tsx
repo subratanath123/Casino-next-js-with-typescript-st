@@ -9,7 +9,7 @@ export default function TermsConditions() {
 
     return (
         <ConsumerLayout>
-            <section className="banner-section inner-banner games">
+            <section className="banner-section inner-banner privacy">
                 <div className="overlay">
                     <div className="banner-content">
                         <div className="container">
@@ -26,11 +26,6 @@ export default function TermsConditions() {
             </section>
 
             <section className="privacy-content terms">
-                <div className="col-md-8 d-flex justify-content-center ">
-                    <Image src={`/assets/images/privacy-policy.png`} alt="pokers"
-                           width="600" height="300"
-                           className="floated-image"/>
-                </div>
                 <div className="overlay pt-120 pb-120">
                     <div className="container">
                         <div className="row justify-content-center">

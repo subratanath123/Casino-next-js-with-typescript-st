@@ -1214,11 +1214,11 @@ h5 {
 }
 
 .banner-section .overlay {
-  background-image: url(../images/index-banner-bg.png);
+  background-image: url(../images/cover.png);
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  background-size: cover;
+  background-size: auto;
 }
 .banner-section .overlay .banner-content {
   padding: 195px 0 160px;
@@ -1248,11 +1248,39 @@ h5 {
   padding: 0 15px;
   content: "";
 }
+/*.navbar-collapse {*/
+/*  background-color: #0b0008;*/
+/*}*/
+
 .banner-section.games .overlay {
-  background-image: url(/assets/images/cover-large.png);
+  background-image: url(/assets/images/header-bar.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.banner-section.privacy .overlay {
+  background-image: url(/assets/images/privacy-policy.png);
+  background-repeat: no-repeat;
+  background-position: 65% 60%;
+  background-size: contain;
+  background-color: #0b0008;
+}
+
+.banner-section.aboutus .overlay {
+  background-image: url(/assets/images/aboutus.png);
+  background-repeat: no-repeat;
+  background-position: 65% 60%;
+  background-size: contain;
+  background-color: #0b0008;
+}
+
+.banner-section.contactus .overlay {
+  background-image: url(/assets/images/contactus.png);
+  background-repeat: no-repeat;
+  background-position: 65% 60%;
+  background-size: contain;
+  background-color: #0b0008;
 }
 
 .floated-image {
@@ -1427,7 +1455,7 @@ h5 {
 
 .popular-game {
   background-image: url(/assets/images/cover-6.png);
-  background-size: auto;
+  background-size: contain;
   background-repeat: repeat;
   position: relative;
 }
