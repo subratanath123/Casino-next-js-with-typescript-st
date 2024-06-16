@@ -32,7 +32,7 @@ export const VipOfferItem: React.FC<Offer> = ({
             </div>
         </div>
 
-        <Script src="/assets/js/jquery.min.js"></Script>
+        <Script src="/assets/js/jquery.min.js" defer async></Script>
         <Script src="/assets/js/jquery-ui.js"></Script>
         <Script src="/assets/js/bootstrap.min.js"></Script>
         

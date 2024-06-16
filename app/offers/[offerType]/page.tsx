@@ -2,14 +2,17 @@
 
 import Script from "next/script";
 import React, {useEffect, useState} from "react";
-import {Offer, OfferType, offerUiLabelMap} from "@/constants/Constants";
+import {Offer, offerSubTitleTextMap, offerTitleTextMap, OfferType, offerUiLabelMap} from "@/constants/Constants";
 import axios from "axios";
 import {GeneralOfferItem} from "@/components/landingpageItems/GeneralOfferItem";
 import Link from "next/link";
 import ConsumerLayout from "@/components/ConsumerLayout";
 import Image from "next/image";
+import {useCookies} from "next-client-cookies";
 
 export default function ShowOffers({params}: { params: { offerType: OfferType } }) {
+
+    const cookies = useCookies();
 
     const [state, setState] = useState<{
         items: Offer[],
@@ -27,6 +30,7 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
                 params: {
                     "page": state.page,
                     "limit": state.limit,
+                    "country": cookies.get("lang")
                 }
             })
             .then((response) => {
@@ -53,8 +57,8 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
 
     return (
         <ConsumerLayout>
-            <section className="banner-section inner-banner privacy">
-                <div className="overlay">
+            <section className="banner-section inner-banner">
+                <div className="overlay" style={{backgroundSize: "contain", backgroundImage: `url(/assets/covers/${params.offerType}.png)`}}>
                     <div className="banner-content">
                         <div className="container">
                             <div className="row">
@@ -82,6 +86,10 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
                 {/*</div>*/}
 
                 <div className="overlay pt-120 pb-120">
+
+                    <h2 className="sub-title" style={{textAlign: "center"}}>{offerTitleTextMap.get(params.offerType)}</h2>
+                    <p className="title" style={{textAlign: "center"}}>{offerSubTitleTextMap.get(params.offerType)}</p>
+
                     <div className="container pt-120">
                         <div className="tab-content">
                             <div className="tab-pane fade show active" id="slots" role="tabpanel"
@@ -96,7 +104,7 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
 
                                                     {
                                                         Array.from(offerUiLabelMap).map(([key, value]) => (
-                                                            <div className="col-auto mb-2 mb-md-0">
+                                                            <div className="col-sm-2 col-md-3 col-xl-3" style={{padding: "5px 5px"}}>
                                                                 <a href={`/offers/` + key} className={`red-button${(key == params.offerType ? "-marked": "")}`}>
                                                                     {value}
                                                                 </a>
@@ -137,11 +145,12 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
                 </div>
             </section>
 
-            <Script src="/assets/js/jquery.min.js"></Script>
+            <Script src="/assets/js/jquery.min.js" defer async></Script>
             <Script src="/assets/js/jquery-ui.js"></Script>
             <Script src="/assets/js/bootstrap.min.js"></Script>
             
             <Script src="/assets/js/plugin/slick.js"></Script>
+
             <Script src="/assets/js/plugin/jquery.nice-select.min.js"></Script>
             <Script src="/assets/js/plugin/counter.js"></Script>
             <Script src="/assets/js/plugin/jquery.downCount.js"></Script>

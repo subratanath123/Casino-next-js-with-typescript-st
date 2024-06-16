@@ -3,8 +3,10 @@ import {Offer} from "@/constants/Constants";
 import axios from "axios";
 import {OnlineGameOfferItem} from "@/components/landingpageItems/OnlineGameOfferItem";
 import Carousel from "react-multi-carousel";
+import {useCookies} from "next-client-cookies";
 
 export default function OnlineGameOfferSection() {
+    const cookies = useCookies();
     const [state, setState] = useState<{
         items: Offer[]
     }>({
@@ -14,7 +16,10 @@ export default function OnlineGameOfferSection() {
 
     useEffect(() => {
             axios
-                .get('https://one-dollar-admin.onrender.com/v1/public/offer/OnlineGame')
+                .get('https://one-dollar-admin.onrender.com/v1/public/offer/OnlineGame', {
+                    params: {
+                        "country": cookies.get("lang")
+                    }})
                 .then((response) => {
 
                     setState({

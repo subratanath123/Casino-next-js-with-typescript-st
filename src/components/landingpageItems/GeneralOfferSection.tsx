@@ -3,8 +3,10 @@ import {Offer} from "@/constants/Constants";
 import axios from "axios";
 import {GeneralOfferItem} from "@/components/landingpageItems/GeneralOfferItem";
 import Link from "next/link";
+import {useCookies} from "next-client-cookies";
 
 export default function GeneralOfferSection() {
+    const cookies = useCookies();
     const [state, setState] = useState<{
         items: Offer[]
     }>({
@@ -13,7 +15,10 @@ export default function GeneralOfferSection() {
 
     useEffect(() => {
             axios
-                .get('https://one-dollar-admin.onrender.com/v1/public/offer/offerList/Offer')
+                .get('https://one-dollar-admin.onrender.com/v1/public/offer/offerList/Offer', {
+                    params: {
+                        "country": cookies.get("lang")
+                    }})
                 .then((response) => {
 
                     setState({

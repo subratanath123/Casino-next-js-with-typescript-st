@@ -5,8 +5,288 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a3457b-cb94-45c5-b0ce-a7652254fba0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/covers/CasinoOffer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/covers/CryptoOffer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/covers/LotteryOffer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/covers/OnlineGames.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/covers/SportsOffer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ae.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/af.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/al.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/am.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/aq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/as.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/at.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/au.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/aw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/az.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/be.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/by.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/bz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/co.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/cz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/dj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/dk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/dm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/do.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/down-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/dz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/eg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/eh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/er.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/es.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/et.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/fi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/fj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/fk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/fm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/fo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gb-eng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gb-nir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gb-sct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gb-wls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/gy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/hk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/hm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/hn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/hr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ht.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/hu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/il.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/im.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/io.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/iq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/is.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/it.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/je.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/jm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/jo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/jp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/kg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/kh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/km.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/kn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/kp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/kr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/kw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/kz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/la.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/lb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/lc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/lk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/lr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/lt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/lu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/lv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/md.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/my.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/mz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/na.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/nc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/nf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/nl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/np.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/nr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/nu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/nz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/om.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/pa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/pe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/pf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/pg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/pk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/pm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/pn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/pr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/pt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/pw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/qa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/re.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/rs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/rw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/si.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/so.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/st.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/sz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/td.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/th.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/to.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/tz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/um.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/uy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/uz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/va.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/vc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/vg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/vi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/vn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/vu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/wf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ws.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/xk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/ye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/yt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/za.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/zm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/flags/zw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/landingpageItems/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/landingpageItems/LanguageSelect.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/aboutus/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/aboutus/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/games/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/games/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/offers/[offerType]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/offers/[offerType]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/privacy-policy/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/privacy-policy/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/terms-conditions/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/terms-conditions/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ConsumerLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConsumerLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/HowToPlayOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/HowToPlayOfferItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/LandingPageHeaderSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/LandingPageHeaderSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/OnlineGameOfferSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/VipOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/VipOfferItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/Constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/Constants.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,26 +311,27 @@
     "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/usr/local/one-dollar-static-customer-frontend/public/assets/images",
+    "last_opened_file_path": "/usr/local/one-dollar-static-customer-frontend/public/assets/covers",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
     "ts.external.directory.path": "/usr/local/one-dollar-static-customer-frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/covers" />
+      <recent name="$PROJECT_DIR$/public/assets/flags" />
+      <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$/public/assets/images/icon" />
-      <recent name="$PROJECT_DIR$/public/assets-profile/webfonts" />
-      <recent name="$PROJECT_DIR$/public/assets/webfonts" />
-      <recent name="$PROJECT_DIR$/src/components/landingpageItems" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/flags" />
       <recent name="$PROJECT_DIR$/app/games" />
       <recent name="$PROJECT_DIR$/app/games/[category]" />
       <recent name="$PROJECT_DIR$/src/components/landingpageItems" />
@@ -106,7 +387,15 @@
       <workItem from="1716054849252" duration="2035000" />
       <workItem from="1716224196865" duration="3040000" />
       <workItem from="1716397577072" duration="806000" />
-      <workItem from="1716522095519" duration="12753000" />
+      <workItem from="1716522095519" duration="15673000" />
+      <workItem from="1717510249656" duration="1046000" />
+      <workItem from="1717512499298" duration="254000" />
+      <workItem from="1717512839632" duration="659000" />
+      <workItem from="1717513512542" duration="4977000" />
+      <workItem from="1717767026637" duration="3221000" />
+      <workItem from="1718284588486" duration="415000" />
+      <workItem from="1718472667761" duration="3614000" />
+      <workItem from="1718522871658" duration="18921000" />
     </task>
     <servers />
   </component>
@@ -128,9 +417,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/page.tsx</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/app/games/page.tsx</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

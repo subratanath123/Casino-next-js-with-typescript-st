@@ -36,7 +36,7 @@ export const HowToPlayOfferItem: React.FC<Offer> = ({
             </div>
 
 
-            <Script src="/assets/js/jquery.min.js"></Script>
+            <Script src="/assets/js/jquery.min.js" defer async></Script>
             <Script src="/assets/js/jquery-ui.js"></Script>
             <Script src="/assets/js/bootstrap.min.js"></Script>
             
@@ -48,7 +48,7 @@ export const HowToPlayOfferItem: React.FC<Offer> = ({
             <Script src="/assets/js/plugin/jquery.magnific-popup.min.js"></Script>
             <Script src="/assets/js/plugin/wow.min.js"></Script>
             <Script src="/assets/js/plugin/plugin.js"></Script>
-            <Script src="/assets/js/main.js"></Script>
+            {/*<Script src="/assets/js/main.js"></Script>*/}
         </div>
     );
 };

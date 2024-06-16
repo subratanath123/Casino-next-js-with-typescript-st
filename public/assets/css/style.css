@@ -18,11 +18,11 @@
 ============================================*/
 
 .hover-expand-button {
-  min-width: 120px;
+  min-width: 170px;
   font-family: "ara bold font";
   transition: all 0.5s;
   cursor: pointer;
-  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  /*box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);*/
 }
 
 .hover-expand-button{
@@ -667,9 +667,9 @@ label {
 }
 
 .red-button{
-  background-color: #7e0606;
-  color: white;
-  border-radius: 15px;
+  background-color: #f5f5f5;
+  color: black;
+  border-radius: 4px;
   position: relative;
   text-transform: uppercase;
   font-weight: 600;
@@ -683,10 +683,14 @@ label {
   justify-content: center;
 }
 
+.red-button:hover {
+  background-color: olive; /* Red background on hover */
+}
+
 .red-button-marked{
-  background-color: #e00909;
-  color: #f3f018;
-  border-radius: 15px;
+  background-color: #FFE4BB;
+  color: black;
+  border-radius: 4px;
   position: relative;
   text-transform: uppercase;
   font-weight: 600;
@@ -699,6 +703,11 @@ label {
   align-items: center;
   justify-content: center;
 }
+
+.red-button-marked:hover {
+  background-color: olive; /* Red background on hover */
+}
+
 
 /* cmn btn */
 .cmn-btn {

@@ -7,9 +7,11 @@ import axios from "axios";
 import {GeneralOffer} from "@/components/childPageItems/GeneralOffer";
 import Link from "next/link";
 import ConsumerLayout from "@/components/ConsumerLayout";
-import Image from "next/image";
+import {useCookies} from "next-client-cookies";
 
 export default function ShowOnlineGames() {
+
+    const cookies = useCookies();
 
     const [state, setState] = useState<{
         items: Offer[],
@@ -27,6 +29,7 @@ export default function ShowOnlineGames() {
                 params: {
                     "page": state.page,
                     "limit": state.limit,
+                    "country": cookies.get("lang")
                 }
             })
             .then((response) => {
@@ -54,7 +57,7 @@ export default function ShowOnlineGames() {
     return (
         <ConsumerLayout>
             <section className="banner-section inner-banner privacy">
-                <div className="overlay">
+                <div className="overlay" style={{backgroundSize:"cover", backgroundImage: `url(/assets/covers/OnlineGames.png)`}}>
                     <div className="banner-content">
                         <div className="container">
                             <div className="row" style={{minHeight: "160px"}}>
@@ -68,19 +71,20 @@ export default function ShowOnlineGames() {
                     </div>
                 </div>
             </section>
-            <section className="games-section">
+            <section className="promotions">
                 {/*<div className="col-md-8 d-flex justify-content-center ">*/}
                 {/*    <Image src="/assets/images/pokers.png" alt="pokers" width="600" height="300" className="floated-image"/>*/}
                 {/*</div>*/}
 
-                <div className="overlay pb-120">
-                    <div className="container pt-120">
+                <div className="overlay">
+                    <div className="container pt-120" >
                         <div className="tab-content">
                             <div className="tab-pane fade show active" id="slots" role="tabpanel"
                                  aria-labelledby="slots-tab">
                                 <div className="tab-content">
                                     <div className="tab-pane fade show active" id="slots-all"
                                          role="tabpanel" aria-labelledby="slots-all-tab">
+
                                         <div className="row row-cols-1 row-cols-md-5 g-5">
                                             {state.items.map((item: Offer, index: number) => (
                                                 <GeneralOffer key={`online-games-${index}`} {...item} />
@@ -88,7 +92,8 @@ export default function ShowOnlineGames() {
                                         </div>
                                         <div className="btn-area mt-3 text-center">
                                             <Link href="javascript:void(0)"
-                                                  className="btn-lg btn-success  rounded grow-on-hover" style={{color:"black", backgroundColor:"#00FF00"}}
+                                                  className="btn-lg btn-success  rounded grow-on-hover"
+                                                  style={{color: "black", backgroundColor: "#00FF00"}}
                                                   onClick={event => fetchItems()}
                                             >
                                                 Load More
@@ -102,11 +107,12 @@ export default function ShowOnlineGames() {
                 </div>
             </section>
 
-            <Script src="/assets/js/jquery.min.js"></Script>
+            <Script src="/assets/js/jquery.min.js" defer async></Script>
             <Script src="/assets/js/jquery-ui.js"></Script>
             <Script src="/assets/js/bootstrap.min.js"></Script>
-            
+
             <Script src="/assets/js/plugin/slick.js"></Script>
+
             <Script src="/assets/js/plugin/jquery.nice-select.min.js"></Script>
             <Script src="/assets/js/plugin/counter.js"></Script>
             <Script src="/assets/js/plugin/jquery.downCount.js"></Script>

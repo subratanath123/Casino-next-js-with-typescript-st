@@ -75,11 +75,12 @@ export default function Contact() {
                 </div>
             </section>
 
-            <Script src="/assets/js/jquery.min.js"></Script>
+            <Script src="/assets/js/jquery.min.js" defer async></Script>
             <Script src="/assets/js/jquery-ui.js"></Script>
             <Script src="/assets/js/bootstrap.min.js"></Script>
             
             <Script src="/assets/js/plugin/slick.js"></Script>
+
             <Script src="/assets/js/plugin/jquery.nice-select.min.js"></Script>
             <Script src="/assets/js/plugin/counter.js"></Script>
             <Script src="/assets/js/plugin/jquery.downCount.js"></Script>
