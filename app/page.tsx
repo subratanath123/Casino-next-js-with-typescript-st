@@ -7,13 +7,12 @@ import {LandingPageHeaderSection} from "@/components/landingpageItems/LandingPag
 import ConsumerLayout from "@/components/ConsumerLayout";
 import "react-multi-carousel/lib/styles.css";
 import Script from "next/script";
-import {CookiesProvider} from "next-client-cookies/server";
 
 export default function Dashboard() {
 
 
     return (
-        <CookiesProvider>
+        <>
             <ConsumerLayout>
                 <LandingPageHeaderSection/>
                 <OnlineGameOfferSection/>
@@ -35,7 +34,7 @@ export default function Dashboard() {
             <Script src="/assets/js/plugin/wow.min.js"></Script>
             <Script src="/assets/js/plugin/plugin.js"></Script>
             <Script src="/assets/js/main.js"></Script>
-        </CookiesProvider>
+        </>
     );
 }
 
