@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {ListGroup, Offcanvas} from "react-bootstrap";
 import {countries, UserLocation} from "@/constants/Constants";
 import axios from "axios";
@@ -6,7 +6,7 @@ import axios from "axios";
 export const LanguageSelect = () => {
 
     const [selectedFlag, setSelectedFlag] = useState(
-        typeof window !== 'undefined' && localStorage.getItem("lang")
+        ""
     );
 
     if (typeof window !== 'undefined' && !localStorage.getItem("lang")) {
@@ -24,6 +24,12 @@ export const LanguageSelect = () => {
         handleClose();
         window.location.reload();
     };
+
+    useEffect(() => {
+            setSelectedFlag(localStorage.getItem("lang") || "us");
+        },
+        []
+    );
 
     return (
         <>
