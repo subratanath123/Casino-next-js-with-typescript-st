@@ -1,11 +1,9 @@
 import React, {useState} from "react";
-import {useCookies} from "next-client-cookies";
 import {ListGroup, Offcanvas} from "react-bootstrap";
 import {countries, UserLocation} from "@/constants/Constants";
 import axios from "axios";
 
 export const LanguageSelect = () => {
-    const cookies = useCookies();
     const [location, setLocation] = useState<UserLocation>({lat: null, lng: null});
     const [country, setCountry] = useState<string | null>(null);
     const [error, setError] = useState<string | null>(null);
@@ -44,11 +42,11 @@ export const LanguageSelect = () => {
     };
 
     const [selectedFlag, setSelectedFlag] = useState(
-        cookies.get('lang')
+        localStorage.getItem("lang")
     );
 
-    if (!cookies.get('lang')) {
-        cookies.set('lang', 'us');
+    if (!localStorage.getItem("lang")) {
+        localStorage.setItem("lang", "us");
         setSelectedFlag("us");
     }
 
@@ -58,7 +56,7 @@ export const LanguageSelect = () => {
 
     const selectFlag = (flag: any) => {
         setSelectedFlag(flag);
-        cookies.set('lang', flag);
+        localStorage.setItem('lang', flag);
         handleClose();
         window.location.reload();
     };

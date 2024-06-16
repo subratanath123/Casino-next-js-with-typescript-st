@@ -7,12 +7,8 @@ import axios from "axios";
 import {GeneralOfferItem} from "@/components/landingpageItems/GeneralOfferItem";
 import Link from "next/link";
 import ConsumerLayout from "@/components/ConsumerLayout";
-import Image from "next/image";
-import {useCookies} from "next-client-cookies";
 
 export default function ShowOffers({params}: { params: { offerType: OfferType } }) {
-
-    const cookies = useCookies();
 
     const [state, setState] = useState<{
         items: Offer[],
@@ -30,7 +26,7 @@ export default function ShowOffers({params}: { params: { offerType: OfferType } 
                 params: {
                     "page": state.page,
                     "limit": state.limit,
-                    "country": cookies.get("lang")
+                    "country": localStorage.getItem("lang") || "us"
                 }
             })
             .then((response) => {

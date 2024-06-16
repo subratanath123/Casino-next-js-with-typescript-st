@@ -7,11 +7,8 @@ import axios from "axios";
 import {GeneralOffer} from "@/components/childPageItems/GeneralOffer";
 import Link from "next/link";
 import ConsumerLayout from "@/components/ConsumerLayout";
-import {useCookies} from "next-client-cookies";
 
 export default function ShowOnlineGames() {
-
-    const cookies = useCookies();
 
     const [state, setState] = useState<{
         items: Offer[],
@@ -29,7 +26,7 @@ export default function ShowOnlineGames() {
                 params: {
                     "page": state.page,
                     "limit": state.limit,
-                    "country": cookies.get("lang")
+                    "country": localStorage.getItem("lang") || "us"
                 }
             })
             .then((response) => {
