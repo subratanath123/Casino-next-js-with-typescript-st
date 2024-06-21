@@ -1,7 +1,5 @@
 import {Offer} from "@/constants/Constants";
 import React from "react";
-import Image from "next/image";
-import Script from "next/script";
 import Link from "next/link";
 
 export const GeneralOfferItem: React.FC<Offer> = ({
@@ -36,7 +34,7 @@ export const GeneralOfferItem: React.FC<Offer> = ({
                 }}>
                     <img
                         key={`image-${id}`}
-                        style={{cursor: "progress", width: "40%"}}
+                        style={{cursor: "progress"}}
                         src={(photoIdList && photoIdList.length > 0) ? `${'https://one-dollar-admin.onrender.com'}/v1/public/offer/image/${photoIdList[0]}` : ''}
                         className="img-fluid mx-auto rounded"
                         alt=""
@@ -47,9 +45,10 @@ export const GeneralOfferItem: React.FC<Offer> = ({
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
-                    <p style={{color: "black", fontFamily: "ara bold font"}}>{details}
-                        {title || "Claim exclusive discount"}
-                        {subtitle || "Limited time discount"}
+                    <p style={{color: "black", fontFamily: "ara bold font", textAlign:"center"}}>
+                        <div dangerouslySetInnerHTML={{ __html: details || "Claim exclusive discount" }} />
+                        <div dangerouslySetInnerHTML={{ __html: title || "Claim exclusive discount" }} />
+                        <div dangerouslySetInnerHTML={{ __html: subtitle || "Claim exclusive discount" }} />
                     </p>
                 </div>
 

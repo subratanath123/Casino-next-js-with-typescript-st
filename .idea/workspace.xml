@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a3457b-cb94-45c5-b0ce-a7652254fba0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ConsumerLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConsumerLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/GeneralOfferItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/landingpageItems/LanguageSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingpageItems/LanguageSelect.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +120,7 @@
       <workItem from="1718284588486" duration="415000" />
       <workItem from="1718472667761" duration="3614000" />
       <workItem from="1718522871658" duration="19279000" />
+      <workItem from="1718988054740" duration="6240000" />
     </task>
     <servers />
   </component>
