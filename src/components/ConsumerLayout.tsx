@@ -6,7 +6,7 @@ import {LanguageSelect} from "@/components/landingpageItems/LanguageSelect";
 
 export default function ConsumerLayout({children}: { children: React.ReactNode }) {
     const pathName = usePathname();
-    const burgerMenuRef = useRef(null);
+    const burgerMenuRef = useRef<HTMLButtonElement>(null);
     const [isBurgerMenuExpanded, setIsBurgerMenuExpanded] = useState(false);
 
     useEffect(() => {

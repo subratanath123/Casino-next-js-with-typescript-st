@@ -3,7 +3,11 @@ import {ListGroup, Offcanvas} from "react-bootstrap";
 import {countries, UserLocation} from "@/constants/Constants";
 import axios from "axios";
 
-export const LanguageSelect = ({ showFlag }) => {
+interface LanguageSelectProps {
+    showFlag: boolean;
+}
+
+export const LanguageSelect: React.FC<LanguageSelectProps> = ({ showFlag }) => {
 
     const [selectedFlag, setSelectedFlag] = useState(
         ""
